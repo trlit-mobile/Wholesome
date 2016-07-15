@@ -1,0 +1,3060 @@
+<resources>
+
+    <string name="dialog_default_title">Wholesome!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+
+    <string name="app_name">Wholesome</string>
+    <string name="facebook_app_id">627870190698632</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_first_day_of_last_measurement_period">ENTER FIRST DAY OF LAST MENSTRUAL PERIOD:</string>
+    <string name="txt_category">CATEGORY:</string>
+    <string name="txt_country">COUNTRY:</string>
+    <string name="txt_total_calories">CALORIES(kcal)/SERVING:</string>
+    <string name="txt_dishname">DISH NAME:</string>
+    <string name="month">MONTH</string>
+    <string name="day">DAY</string>
+    <string name="year">YEAR</string>
+    <string name="approximate_days_of_period_cycle">APPROXIMATE DAYS OF PERIOD CYCLE</string>
+    <string name="ovulation_estimate">Ovulation Estimate</string>
+
+
+    <string-array name="month">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string-array name="day">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+        <item>2041</item>
+        <item>2042</item>
+        <item>2043</item>
+        <item>2044</item>
+        <item>2045</item>
+        <item>2046</item>
+        <item>2047</item>
+        <item>2048</item>
+        <item>2049</item>
+        <item>2050</item>
+
+    </string-array>
+
+    <string-array name="cycle">
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+    </string-array>
+
+    <string-array name="array_spinner_1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="hours_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="min_array">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+    </string-array>
+
+    <string-array name="lbs_kg_array">
+        <item>Lbs</item>
+        <item>Kg</item>
+    </string-array>
+
+    <string-array name="inch_cm_array">
+        <item>Inch</item>
+        <item>Cm</item>
+    </string-array>
+
+    <string-array name="activity_array">
+        <item>Aerobic calisthenics</item>
+        <item>Aerobic step, 6-8 inch step</item>
+        <item>Aerobic step, 10-12 inch step</item>
+        <item>Aerobic High Impact</item>
+        <item>Aerobic Low Impact</item>
+        <item>Ashtanga Yoga</item>
+        <item>Archery</item>
+        <item>Back Packing</item>
+        <item>Badminton</item>
+        <item>Basketball Officiating</item>
+        <item>Basketball Shooting-Basket</item>
+        <item>Basketball(half-court)</item>
+        <item>Basketball(full-court)</item>
+        <item>Bikram / Hot Yoga</item>
+        <item>Billards</item>
+        <item>Brush Teeth</item>
+        <item>Bicycling less than 10 mph, leisurely</item>
+        <item>Bicycling 10-11.9 mph, light</item>
+        <item>Bicycling 12-13.9 mph, moderate</item>
+        <item>Bicycling 14-15.9 mph, vigorous</item>
+        <item>Bicycling 16-19 mph, racing</item>
+        <item>Bicycling 20-25 mph, racing</item>
+        <item>Bicycling Stationary, very light</item>
+        <item>Bicycling Stationary, light</item>
+        <item>Bicycling Stationary, moderate</item>
+        <item>Bicycling Stationary, vigorous</item>
+        <item>Bicycling Stationary, very vigorous</item>
+        <item>Bowling</item>
+        <item>Boxing - in Ring</item>
+        <item>Boxing - Punching bag</item>
+        <item>Calisthenic Exercise-Moderate</item>
+        <item>Calisthenic Exercise-Vigorous</item>
+        <item>Canoeing 2mph</item>
+        <item>Canoeing 4mph</item>
+        <item>Card Playing</item>
+        <item>Carpentry / Workshop</item>
+        <item>Carrying an Infant</item>
+        <item>Chop Wood</item>
+        <item>Cleaning Gutters</item>
+        <item>Coaching - Team sports</item>
+        <item>Construction - Remodelling</item>
+        <item>Cooking</item>
+        <item>Cricket</item>
+        <item>Croquet</item>
+        <item>Dancing(slow)</item>
+        <item>Dancing(moderately fast)</item>
+        <item>Dancing(more rapid)</item>
+        <item>Dancing(vigorous)</item>
+        <item>Driving</item>
+        <item>Elder Care, Disabled Adult</item>
+        <item>Elliptical Trainer</item>
+        <item>Farming / Feeding Live Stock</item>
+        <item>Fencing</item>
+        <item>Fishing</item>
+        <item>Football - Full Contact</item>
+        <item>Football - Playing Catch</item>
+        <item>Football - Touch</item>
+        <item>Frisbee Playing</item>
+        <item>Frisbee, Ultimate</item>
+        <item>Garden</item>
+        <item>Golf, using power cart</item>
+        <item>Golf, not carrying clubs</item>
+        <item>Golf, carrying clubs</item>
+        <item>Gymnastics, general</item>
+        <item>Hair Styling</item>
+        <item>Handball</item>
+        <item>Hang Gliding</item>
+        <item>Hatha Yoga</item>
+        <item>Hiking</item>
+        <item>Hockey</item>
+        <item>Hopscotch / Dodgeball</item>
+        <item>Horse Grooming</item>
+        <item>Horseback Riding - Walking</item>
+        <item>Horseback Riding - Trotting</item>
+        <item>Horseback Riding - Galloping</item>
+        <item>Housework</item>
+        <item>Hunting</item>
+        <item>Ice or roller skating</item>
+        <item>Insanity Workout- High Intensity</item>
+        <item>Insanity Workout- Cardio</item>
+        <item>Insanity Workout- Recovery</item>
+        <item>Ironing</item>
+        <item>Jogging(1 mile/12 min)</item>
+        <item>Jogging Slow(1 mile/13-14 min)</item>
+        <item>Judo - Martial Arts</item>
+        <item>Jumping jacks - Moderate</item>
+        <item>Jumping jacks - Vigorous</item>
+        <item>Kayaking</item>
+        <item>Lacrosse</item>
+        <item>Lifting Weight - General</item>
+        <item>Lifting Weight - Vigorous</item>
+        <item>Loading / Unloading Car</item>
+        <item>Mild Stretching</item>
+        <item>Mopping</item>
+        <item>Mowing - Push</item>
+        <item>Packing Suitcase</item>
+        <item>Paddle Boat</item>
+        <item>Painting</item>
+        <item>Paint Ball</item>
+        <item>Pilates - Beginner</item>
+        <item>Pilates - Intermediate</item>
+        <item>Pilates - Advanced</item>
+        <item>Playing Board Games</item>
+        <item>Playing Piano</item>
+        <item>Playing Guitar</item>
+        <item>Power Yoga</item>
+        <item>Push Stroller with Child</item>
+        <item>Pushup- Moderate</item>
+        <item>Pushup- Vigorous</item>
+        <item>Putting away Groceries</item>
+        <item>Racking Lawn</item>
+        <item>Racquetball Casual</item>
+        <item>Racquetball Competitive</item>
+        <item>Rearrange Furniture</item>
+        <item>Reading</item>
+        <item>Repelling</item>
+        <item>Rock Climbing</item>
+        <item>Roofing</item>
+        <item>Rope Jumping</item>
+        <item>Rowing Machine - Moderate</item>
+        <item>Rowing Machine - Vigorous</item>
+        <item>Rugby</item>
+        <item>Running 5 mph(12-minute mile)</item>
+        <item>Running 5.2 mph(11.5-minute mile)</item>
+        <item>Running 6 mph(10-minute mile)</item>
+        <item>Running 6.7 mph(9-minute mile)</item>
+        <item>Running 7 mph(8.5-minute mile)</item>
+        <item>Running 7.5 mph(8-minute mile)</item>
+        <item>Running 8 mph(7.5-minute mile)</item>
+        <item>Running 8.6 mph(7-minute mile)</item>
+        <item>Running 9 mph(6.5-minute mile)</item>
+        <item>Running 10 mph(6-minute mile)</item>
+        <item>Running 10.6 mph(5.5-minute mile)</item>
+        <item>Running cross-country</item>
+        <item>Running up stairs</item>
+        <item>Sex - Foreplay</item>
+        <item>Sex - Intercourse</item>
+        <item>Shake Weight Workout</item>
+        <item>Shopping</item>
+        <item>Shoveling Snow</item>
+        <item>Showering</item>
+        <item>Singing - Sitting</item>
+        <item>Singing - Standing</item>
+        <item>Sitting - Resting</item>
+        <item>Situps / Crunches - Moderate</item>
+        <item>Situps / Crunches - Vigorous</item>
+        <item>Skate Boarding</item>
+        <item>Skating Moderate</item>
+        <item>Skating Vigorous</item>
+        <item>Skiing - CrossCountry</item>
+        <item>Skiing - DownHill</item>
+        <item>Skiing - Water</item>
+        <item>Sleeping</item>
+        <item>Snorkeling</item>
+        <item>Snowmobiling</item>
+        <item>Soccer, Casual, General</item>
+        <item>Softball / Baseball</item>
+        <item>Some exercise apparatuses</item>
+        <item>Standing</item>
+        <item>Stretching</item>
+        <item>Studying</item>
+        <item>Surfing</item>
+        <item>Swimming Slow</item>
+        <item>Swimming leisurely-not laps</item>
+        <item>Swimming laps moderate to fast</item>
+        <item>Swimming breast stroke-general</item>
+        <item>Swimming back stroke-general</item>
+        <item>Swimming butterfly-general</item>
+        <item>Swimming side stroke-general</item>
+        <item>Table tennis</item>
+        <item>Tae Bo</item>
+        <item>Talking on Phone</item>
+        <item>Tennis Singles, Squash</item>
+        <item>Tennis Doubles(if you run a lot)</item>
+        <item>Tennis Most Doubles</item>
+        <item>Touring / Travelling</item>
+        <item>Track and Field (High jump, Long jump)</item>
+        <item>Vacuuming</item>
+        <item>Vinyasa Yoga</item>
+        <item>Volleyball Beach</item>
+        <item>Walking slow(1-2 mi/hr)</item>
+        <item>Walking average pace(2-2.5 mi/hr)</item>
+        <item>Walking briskly(1 mi/20 min)</item>
+        <item>Walking very briskly(1 mi/18 min)</item>
+        <item>Walking very briskly(1 mi/15 min)</item>
+        <item>Walking up hill(3.5 mi/hour)</item>
+        <item>Water Aerobics</item>
+        <item>Weaving Cloth</item>
+        <item>Weight lifting, water aerobics</item>
+        <item>Writing</item>
+        <item>Zumba Low Intensity</item>
+        <item>Zumba Medium Intensity</item>
+        <item>Zumba High Intensity</item>
+
+    </string-array>
+
+    <string-array name="time_array">
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="country_array">
+        <item>Australia</item>
+        <item>British</item>
+        <item>Caribbean</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>Greek</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Moroccan</item>
+        <item>Spanish</item>
+        <item>Thai</item>
+        <item>USA</item>
+    </string-array>
+
+    <string-array name="British_dish_name_array">
+        <item>British onion soup</item>
+        <item>Steak and kidney pie</item>
+        <item>Foolproof slow roast chicken</item>
+        <item>British pork cassoulet</item>
+        <item>Goat\'s cheese and thyme stuffed chicken</item>
+        <item>No-fuss shepherd\'s pie</item>
+        <item>Spiced parsnip shepherd\'s pies</item>
+        <item>Dorset apple traybake	</item>
+        <item>Beef and vegetable casserole</item>
+        <item>Spicy roasted parsnip soup</item>
+        <item>Chicken and mushroom puff pie</item>
+        <item>Classic sponge sandwich</item>
+        <item>Toad in the hole in 4 easy steps</item>
+        <item>Lamb steaks with rosemary sweet potatoes</item>
+        <item>Fish pie - in four steps</item>
+        <item>Gooey school treacle sponge</item>
+        <item>Beef Wellington</item>
+        <item>Lemon syllabub</item>
+        <item>Crispy fish and chips with mushy peas</item>
+        <item>Lancashire hotpot</item>
+        <item>Pear and blackberry crumbles</item>
+        <item>Slow-baked clotted cream rice pudding</item>
+        <item>Rhubarb pie</item>
+        <item>Bakewell tart</item>
+        <item>Cheese and onion pork chops</item>
+        <item>Sausages and mash with quick onion gravy</item>
+        <item>The ultimate makeover: Full English breakfast</item>
+        <item>Best Yorkshire puddings</item>
+        <item>Roast rib of beef</item>
+        <item>Angela\'s summer pudding</item>
+        <item>Steamed cranberry roly-poly</item>
+        <item>Pink lemonade</item>
+        <item>Roasted autumn vegetables with Lancashire cheese</item>
+        <item>Mustard toad in the hole</item>
+        <item>Scotch duck eggs</item>
+    </string-array>
+
+    <string-array name="Caribbean_dish_name_array">
+        <item>Jerk beefburger with pineapple relish and chips</item>
+        <item>Caribbean chicken with spring onion sauce</item>
+        <item>Antiguan beef stew with coconut rice</item>
+        <item>Spiced glazed pineapple with cinnamon fromage frais</item>
+        <item>Tropical breakfast smoothie</item>
+        <item>Reggae reggae nachos</item>
+        <item>Simple coconut and bean soup</item>
+        <item>Natalie\'s Trinidadian fish stew</item>
+        <item>Hot and spicy sweet potatoes</item>
+        <item>Pippa\'s perfect plantains</item>
+        <item>Jerk pork with rice and beans</item>
+        <item>Sizzling spare ribs with BBQ sauce</item>
+        <item>Exotic avocado salad</item>
+    </string-array>
+
+    <string-array name="Chinese_dish_name_array">
+        <item>Chinese-style braised beef one-pot</item>
+        <item>Sticky Chinese wings and cucumber</item>
+        <item>Crisp Chinese pork</item>
+        <item>Chinese steamed bass with cabbage</item>
+        <item>Chinese-style kale</item>
+        <item>Hoisin wraps</item>
+        <item>Chicken satay</item>
+        <item>Slow-cooked Chinese beef</item>
+        <item>Chinese-style wintery rolls</item>
+        <item>Sweet and sour chicken</item>
+        <item>Chinese noodles with tofu and hazelnuts</item>
+        <item>Steamed pork and prawn wontons</item>
+        <item>Sea bass with sizzled ginger, chilli and spring onions</item>
+        <item>Festive golden five-spice chicken</item>
+        <item>Toffee and sesame bananas</item>
+        <item>Chinese braised red cabbage</item>
+        <item>Stir-fry</item>
+        <item>Spice Tofu And Bean Sprouts Kodri</item>
+        <item>Almond Vegetable Stir-fry</item>
+        <item>Chinese Fried Rice</item>
+        <item>Chinese stir fried vegetables</item>
+        <item>Chinese Vegetables In Hot Garlic Sauce</item>
+        <item>Green Pea and Corn Soup</item>
+        <item>Hakka Mushroom</item>
+        <item>Paneer And Baby Corn Stir Fry</item>
+        <item>Singapore Rice Noodles</item>
+        <item>Spicy Stir Fried Baby Corn</item>
+        <item>Stir-fried Spinach Pancakes</item>
+        <item>Veg Fried Kodri</item>
+        <item>Adriel\'s Chinese Curry Chicken</item>
+        <item>Adzuki Mooncake</item>
+        <item>Almond Gelatin</item>
+        <item>Almond Gelatin with Mandarin Oranges</item>
+        <item>Almond Jelly</item>
+        <item>Anise Wine Chicken</item>
+        <item>Asian Chicken Noodle Soup</item>
+        <item>Cantonese Style Pork and Shrimp Dumplings</item>
+        <item>Asian Chicken Salad</item>
+        <item>Asian Fire Meat</item>
+        <item>Authentic Chinese Egg Rolls</item>
+        <item>Authentic Chinese Steamed Fish</item>
+        <item>Avocado Chicken Stir-Fry</item>
+        <item>Beefy Chinese Dumplings</item>
+        <item>Black Pepper Beef and Cabbage Stir Fry</item>
+        <item>Brandi\'s Won Tons</item>
+        <item>Cantonese Barbecued Pork</item>
+        <item>Cantonese Lean Pork Congee</item>
+        <item>Chi Tan T\'ang</item>
+        <item>Chicken and Chinese Vegetable Stir-Fry</item>
+        <item>Chicken and Cold Noodles with Spicy Sauce</item>
+        <item>Chicken and Snow Peas</item>
+        <item>Chicken Broccoli Ca - Unieng\'s Style</item>
+        <item>Chicken with Green Peppers in Black Bean Sauce</item>
+        <item>Chicken Yum-Yums</item>
+        <item>China Sun Chicken</item>
+        <item>Chinese Braised Spare Ribs</item>
+        <item>Chinese Broccoli</item>
+        <item>Chinese Broccoli Slaw</item>
+        <item>Chinese Cabbage Salad II</item>
+        <item>Chinese Chicken and Potato Soup</item>
+        <item>Chinese Chicken Casserole Surprise</item>
+        <item>Chinese Chicken Fried Rice I</item>
+        <item>Chinese Chicken Fried Rice II</item>
+        <item>Chinese Chicken Rice Salad</item>
+        <item>Chinese Chicken Salad</item>
+        <item>Chinese Chicken Salad I</item>
+        <item>Chinese Chicken Wings</item>
+        <item>Chinese Clay Pot Chicken Rice</item>
+        <item>Chinese Clay Pot Rice with Chicken</item>
+        <item>Chinese Coconut Pudding</item>
+        <item>Chinese Cold Pasta Salad</item>
+        <item>Chinese Corn Soup</item>
+        <item>ese Creamy Corn Soup</item>
+        <item>Chinese Dan-Bin</item>
+        <item>Chinese Egg Dumplings</item>
+        <item>Chinese Egg Soup</item>
+        <item>Chinese Glass Noodle Soup</item>
+        <item>Chinese Green Bean Stir-Fry</item>
+        <item>Chinese Ham Stew</item>
+        <item>Chinese Lemon Chicken</item>
+        <item>Chinese Lion\'s Head Soup</item>
+        <item>Chinese Mabo Tofu</item>
+        <item>Chinese New Year Sweet Rice</item>
+        <item>Chinese New Year Turnip Cake</item>
+        <item>Chinese Noodle Chicken</item>
+        <item>Chinese Noodle Pancakes with Asparagus</item>
+        <item>Chinese Pearl Meatballs</item>
+        <item>Chinese Peppered Green Beans</item>
+        <item>Chinese Pork Buns (Cha Siu Bao)</item>
+        <item>Chinese Pork Tenderloin</item>
+        <item>Chinese Restaurant Almond Cookies</item>
+        <item>Chinese steamed bass with cabbage</item>
+        <item>Chinese Roast Pork</item>
+        <item>Chinese Sausage Fried Rice</item>
+        <item>Chinese Shrimp and Tofu Soup</item>
+        <item>Chinese Spareribs</item>
+        <item>Chinese Spicy Hot And Sour Soup</item>
+        <item>Chinese Steamed Buns</item>
+        <item>Chinese Steamed Buns with Barbecued Pork Filling</item>
+        <item>Chinese Steamed White Fish Fillet with Tofu</item>
+    </string-array>
+
+    <string-array name="French_dish_name_array">
+        <item>Chicken confit with French beans and herb chicken jus</item>
+        <item>Warm salmon Niçoise</item>
+        <item>French onion soup</item>
+        <item>Toulouse sausage and butter bean casserole</item>
+        <item>French-style chicken with peas and bacon</item>
+        <item>Boulangère potatoes</item>
+        <item>Ultimate French omelette</item>
+        <item>Cheesy French toast with ham and grilled vine tomatoes</item>
+        <item>Chicken liver and pineau pâté</item>
+        <item>Pear tarte Tatin</item>
+        <item>White chocolate crème brûlée</item>
+        <item>Brioche French toast with raspberry jam</item>
+        <item>Basic hollandaise</item>
+        <item>Tomato and caramelised onion tart tatin</item>
+        <item>Brie and spinach croissants</item>
+        <item>Hot chocolate soufflés with chocolate cream sauce</item>
+        <item>Summer fish stew with quick rouille</item>
+        <item>Baked Cottage Cheese Pie</item>
+        <item>Baked Potatoes with Broccoli and Red Pepper</item>
+        <item>Banana Pancakes with Chocolate Sauce</item>
+        <item>Cheesy Baked Potatoes</item>
+        <item>Low Calorie Vegetable Au Gratin</item>
+        <item>Spicy Baked Dish</item>
+        <item>Vegetable Au Gratin</item>
+        <item>Aioli</item>
+        <item>Aioli (Garlic Mayonnaise)</item>
+        <item>Almond Pork</item>
+        <item>Almond Puff Cake</item>
+        <item>Alsatian Chocolate Balls</item>
+        <item>Alsatian Pork and Sauerkraut</item>
+        <item>Ann\'s Christmas Eve Bouillabaisse</item>
+        <item>Apricot Chicken Provencal</item>
+        <item>Artichoke and Escargot Over Linguini</item>
+        <item>Aunt Betty\'s French Dressing</item>
+        <item>Authentic French Meringues</item>
+        <item>Avocado, Beet and Arugula Salad with Chevre Tartine</item>
+        <item>Baked Brie in Puff Pastry</item>
+        <item>Baked Chicken and Brie</item>
+        <item>Baked Monte Cristo Sandwiches</item>
+        <item>Baked Zucchini de Provence</item>
+        <item>Banana Souffle</item>
+        <item>Basic Bechamel Sauce</item>
+        <item>Basic Beurre Blanc</item>
+        <item>Basic Crepes</item>
+        <item>BBQ Chicken Cordon Bleu</item>
+        <item>Bearnaise Sauce I</item>
+        <item>Beef and Vegetable Ragout</item>
+        <item>Beef Bourguignon I</item>
+        <item>Beef Bourguignon II</item>
+        <item>Beef Burgundy Casserole</item>
+        <item>Beef Tenderloin with Ginger-Shiitake Brown Butter</item>
+        <item>Beef, Burgundy Style</item>
+        <item>Ben\'s Bearnaise Sauce</item>
+        <item>Blender Hollandaise Sauce</item>
+        <item>Blender Sauce Noisette</item>
+        <item>Blue Cheese Walnut Toasts</item>
+        <item>Blue Cheese, Bacon and Chive Stuffed Pork Chops</item>
+        <item>Blueberry Clafouti</item>
+        <item>Boeuf en Croute</item>
+        <item>Bordelaise Sauce with Mushrooms</item>
+        <item>Bouillabaisse</item>
+        <item>Bread Crust Zucchini Quiche</item>
+        <item>Brie Cheese Appetizer</item>
+        <item>Brioche</item>
+        <item>Broccoli Polonaise</item>
+        <item>Buche de Noel</item>
+        <item>Cali\'s Sinful Creme Brulee</item>
+        <item>Carly\'s Salmon En Papillote</item>
+        <item>Cheese Puffs (Gougeres</item>
+        <item>Cheesy French Toast</item>
+        <item>Chef Filip\'s Sourbread</item>
+        <item>Cherry Clafouti</item>
+        <item>Chicken a la Creme</item>
+        <item>Chicken a la Good</item>
+        <item>Chicken and Asparagus Vol-au-vent</item>
+        <item>Chicken Cordon Bleu Casserole</item>
+        <item>Chicken Cordon Bleu I</item>
+        <item>Chicken Cordon Bleu II</item>
+        <item>Chicken Francese</item>
+        <item>Chicken Francese for One</item>
+        <item>Chicken French - Rochester, NY Style</item>
+        <item>Chicken Gruyere with Sauteed Mushrooms</item>
+        <item>Chicken Mushroom Stew</item>
+        <item>Chicken or Turkey Crepes with Tarragon</item>
+        <item>Chicken Stew \'Fricot\'</item>
+        <item>Cordon Bleu Chicken Rolls</item>
+        <item>Chinese Steamed Cake</item>
+        <item>Chocolate Banana Crepes</item>
+        <item>Chocolate Crepes</item>
+        <item>Chocolate Ganache</item>
+        <item>Chocolate Hazelnut Fruit Crepes</item>
+        <item>Chocolate Liqueur Souffles</item>
+        <item>Chocolate Madeleines</item>
+        <item>Chocolate Mousse Cake I</item>
+        <item>Chocolate Mousse Cake II</item>
+        <item>Chutney Baked Brie</item>
+        <item>Coq Au Vin, My Way</item>
+        <item>Company Liver with Onions</item>
+        <item>Chocolate Mousse Cake IV</item>
+    </string-array>
+
+    <string-array name="Greek_dish_name_array">
+        <item>Greek lamb with potatoes and olives</item>
+        <item>Greek-style chickpea and parsley salad</item>
+        <item>Spinach and feta filo pie</item>
+        <item>Gigantes plaki</item>
+        <item>Greek lamb with orzo</item>
+        <item>Moussaka</item>
+        <item>Crispy Greek-style pie</item>
+        <item>Greek roast lamb</item>
+        <item>Halloumi wrapped in red pepper with lemon and chilli</item>
+        <item>Crunchy feta and tomato salad</item>
+        <item>Greek island salad with chicken and avocado</item>
+        <item>Greek lamb tray bake</item>
+        <item>Greek pasta salad</item>
+        <item>Greek salad omelette</item>
+        <item>Lemon and coriander houmous</item>
+        <item>Honey yogurt cheesecake</item>
+        <item>Must-make moussaka</item>
+        <item>Lentil and lamb moussaka</item>
+        <item>Greek-style lamb with lemon and thyme</item>
+        <item>Honey dough with Greek yogurt, orange, walnuts and basil</item>
+        <item>Griddled halloumi with fennel, lemon and olive salad</item>
+        <item>Stuffed tomatoes with lamb mince, dill and rice</item>
+        <item>Greek salad omelette</item>
+        <item>Lamb, lemon and dill souvlaki</item>
+        <item>Feta baked with tomato and oregano</item>
+        <item>Mini veggie moussakas</item>
+        <item>Lamb souvlaki skewers</item>
+        <item>Halloumi kebabs with thyme and lemon baste</item>
+        <item>Lamb and feta burgers with minty yogurt</item>
+        <item>The ultimate makeover: Moussaka</item>
+        <item>Herby baked lamb in tomato sauce</item>
+        <item>Warm honey cup puddings</item>
+        <item>Watermelon and feta salad with crispbread</item>
+        <item>Feta-crusted lamb with rich tomato sauce</item>
+        <item>Peppers with halloumi, chilli and pine nuts</item>
+        <item>Lamb steaks with feta, tomato and rosemary</item>
+        <item>Hob-to-table moussaka</item>
+    </string-array>
+
+    <string-array name="Indian_dish_name_array">
+        <item>Spiced chicken balti </item>
+        <item>Indian spiced barbecued lamb</item>
+        <item>Indian spiced greens</item>
+        <item>Indian spinach dumplings with yogurt sauce</item>
+        <item>Creamy masala chicken</item>
+        <item>Fragrant vegetable and cashew biryani</item>
+        <item>Indian mince with fresh tomato salad</item>
+        <item>Indian-spiced fish cakes</item>
+        <item>Lamb saag</item>
+        <item>Spinach and sweet potato curry</item>
+        <item>Flatbread</item>
+        <item>Coconut dhal</item>
+        <item>Spiced paneer</item>
+        <item>Ultimate kedgeree </item>
+        <item>Fresh tomato chutney</item>
+        <item>Marvellous mangoes</item>
+        <item>Indian chickpea and vegetable soup</item>
+        <item>Indian lamb cutlets</item>
+        <item>Indian summer salad</item>
+        <item>Aloo Mutter</item>
+        <item>Aloo Paneer Chaat</item>
+        <item>Anjeer Basundi</item>
+        <item>Arhar Aur Tamatar Ka Shorba</item>
+        <item>Baby Corn Paneer Jalfrazie</item>
+        <item>Badam Ka Sheera</item>
+        <item>Bajra Khakhras</item>
+        <item>Baked Chaklis</item>
+        <item>Bajra Khichdi</item>
+        <item>Baked Doodhi Kofta Curry</item>
+        <item>Baked Methi Muthias</item>
+        <item>Baked Palak Methi Puris</item>
+        <item>Baked Rasgullas</item>
+        <item>Low Fat Curds</item>
+        <item>Baked Tortilla Chips</item>
+        <item>Bharva Baingan</item>
+        <item>Bharwa Lauki</item>
+        <item>Bread Koftas In Pumpkin Curry</item>
+        <item>Broccoli Aloo aur Paneer ki Subzi</item>
+        <item>Bulgur Wheat and Paneer Pulao</item>
+        <item>Bulgur Wheat and Vegetable Khichdi</item>
+        <item>Cabbage Jowar Muthias</item>
+        <item>Cabbage Stuffing For Parathas</item>
+        <item>Carrot Garlic Chutney</item>
+        <item>Carrot Garlic Chutney</item>
+        <item>Carrot Methi Subzi</item>
+        <item>Cauliflower Methi Roti</item>
+        <item>Cauliflower Paneer Bhurji</item>
+        <item>Chana Kofta Kadhi</item>
+        <item>Chana Palak</item>
+        <item>Chana Soya Masala</item>
+        <item>Chick Pea and Soya Tikkis</item>
+        <item>Chilli Paneer and Baby Corn Wrap</item>
+        <item>Chola Dal Dhoklas</item>
+        <item>Chola Dal Dhoklas</item>
+        <item>Chola Methi Dhokla</item>
+        <item>Coriander Curd Rice</item>
+        <item>Coriander Garlic Chutney</item>
+        <item>Corn and Potato Tikkis</item>
+        <item>Corn Palak</item>
+        <item>Corn Palak Pulao</item>
+        <item>Corn Panki</item>
+        <item>Corn Sambar</item>
+        <item>Cream of Tomato Soup</item>
+        <item>Crispy Karela</item>
+        <item>Crunchy Soyabean Snack</item>
+        <item>Dahi Bhindi ki Subji</item>
+        <item>Dahi Chane ki Subzi</item>
+        <item>Dahi Vada</item>
+        <item>Dal and Vegetable Idli</item>
+        <item>Dal Kabila</item>
+        <item>Dal Makhani</item>
+        <item>Dal Moghlai</item>
+        <item>Date and Sesame Puranpoli</item>
+        <item>Dhan-saak Dal</item>
+        <item>Doodhi Theplas</item>
+        <item>Fada ni Khichdi</item>
+        <item>Falooda</item>
+        <item>Fansi Dhokli</item>
+        <item>French Beans Foogath</item>
+        <item>Fruit Sandesh</item>
+        <item>Fruity Phirni</item>
+        <item>Gajar Halwa</item>
+        <item>Garlic Tomato Chutney</item>
+        <item>Gavarfali Ki Subzi</item>
+        <item>Gehun ki Bikaneri Khichdi</item>
+        <item>Gobhi Paneer Palak Parathas</item>
+        <item>Golpapdi</item>
+        <item>Grape Lassi</item>
+        <item>Grated Cauliflower With Peas</item>
+        <item>Green Pea Pankis</item>
+        <item>Green Pea Parathas</item>
+        <item>Green Peas Kalakand</item>
+        <item>Grilled Hot N Sweet Paneer</item>
+        <item>Gujarati Suva Kadhi</item>
+        <item>Hara Bhara Kebab</item>
+        <item>Hara Bhara Soya Tikkis</item>
+        <item>Healthy Kofta Kadhi</item>
+        <item>Healthy Oondhiya</item>
+        <item>Healthy Sheera</item>
+        <item>High Fibre Chutney</item>
+    </string-array>
+
+    <string-array name="Italian_dish_name_array">
+        <item>Mozzarella peppers with chunky Italian dressing</item>
+        <item>Italian stuffed chicken</item>
+        <item>Roast red wine lamb with Italian beans</item>
+        <item>Italian tuna balls</item>
+        <item>Boned turkey with Italian stuffing</item>
+        <item>Roasted chestnut and herb pesto pasta with mushrooms</item>
+        <item>Italian chicken with ham, basil and beans</item>
+        <item>Italian lamb stew with rosemary and olives</item>
+        <item>Italian green salad with Parmesan and lemon dressing</item>
+        <item>Italian sausage, Puy lentil and rosemary stew</item>
+        <item>Italian hazelnut and chocolate torte</item>
+        <item>Blackberry zabaglione</item>
+        <item>Pesto and tomato pasta with crispy crumbs</item>
+        <item>Italian chicken and rosemary stew</item>
+        <item>Italian roast turkey</item>
+        <item>Italian sausage stew with rosemary garlic mash</item>
+        <item>Italian butter beans</item>
+        <item>Italian vegetable soup</item>
+        <item>Italian sausage polpettina and macaroni bake</item>
+        <item>Chunky minestrone soup</item>
+        <item>Dead good spaghetti carbonara</item>
+        <item>Tomato, spinach and mascarpone gnocchi</item>
+        <item>Pizza margherita in 4 easy steps</item>
+        <item>Linguine with cherry tomatoes and goat\'s cheese</item>
+        <item>Italian cottage pie</item>
+        <item>Tiramisu ice-cream cake</item>
+        <item>So-simple spaghetti Bolognese</item>
+        <item>Spinach and feta cannelloni</item>
+        <item>Bucatini amatriciana</item>
+        <item>Zabaglione trifle slice</item>
+        <item>Fig, Gorgonzola and prosciutto salad</item>
+        <item>Rustic bread</item>
+        <item>Italian baked rabbit with green olives and lemon</item>
+        <item>Mozzarella, mango and Serrano ham salad</item>
+        <item>Chicken cacciatore</item>
+        <item>Mushroom and spinach risotto</item>
+        <item>Roast chicken risotto</item>
+        <item>Easy risotto with bacon and peas</item>
+        <item>Italian toasties</item>
+        <item>Italian meatloaf</item>
+        <item>Italian pork patties with potato wedges</item>
+        <item>Italian stew with borlotti beans and sausage</item>
+        <item>Italian turkey toasties</item>
+        <item>Antipasto Duo</item>
+        <item>Baked Cottage Cheese Pie</item>
+        <item>Baked Potatoes with Broccoli and Red Pepper</item>
+        <item>Barley Vegetable Soup</item>
+        <item>Bean Soup</item>
+        <item>Broccoli and Walnut Soup</item>
+        <item>Broccoli Broth</item>
+        <item>Broccoli Broth ( Healthy Soups and Salads)</item>
+        <item>Bruschettas</item>
+        <item>Cheesy Baked Potatoes</item>
+        <item>Cheesy Pasta with Vegetables</item>
+        <item>Creamy Herb Pasta</item>
+        <item>Curried Beans Pasta</item>
+        <item>Custard Fruit Tarts</item>
+        <item>Dieter\'s Pizza</item>
+        <item>Dieter\'s Pizza ( Delicious Diabetic)</item>
+        <item>Easy Cheesy Vegetable Pasta</item>
+        <item>Fruit and Lettuce Salad</item>
+        <item>Full of Fibre Pasta</item>
+        <item>Grape Surprise</item>
+        <item>Italiano Salad</item>
+        <item>Mini Pizzetas</item>
+        <item>Mushroom Olive Crostini</item>
+        <item>Peach Lettuce Salad</item>
+        <item>Penne with Spinach in Low Fat Cheese Sauce</item>
+        <item>Ratatouille With Herbed Kodri</item>
+        <item>Roman Style Pumpkin Soup</item>
+        <item>Rosti Pizzas</item>
+        <item>Spaghetti Verdi</item>
+        <item>Spicy Baked Dish</item>
+        <item>Spicy Vegetable Risotto</item>
+        <item>Spinach Pasta Puree</item>
+        <item>Tandoori Paneer Pizzas</item>
+        <item>Tangy Lettuce Salad</item>
+        <item>Three Bean Salad</item>
+        <item>Three Bean Salad</item>
+        <item>Vegetable And Basil Soup</item>
+        <item>Vegetable and Bean Soup</item>
+        <item>Vegetable Cheesy Kodri</item>
+        <item>Vegetable Penne</item>
+        <item>Virgin Mary</item>
+        <item>Whole Wheat Pasta With Tomato Gravy</item>
+        <item>Whole Wheat Tagliatelle with Spinach Dumplings</item>
+    </string-array>
+
+    <string-array name="Mediterranean_dish_name_array">
+        <item>Mediterranean fish stew with garlic toasts</item>
+        <item>Mediterranean stuffed peppers</item>
+        <item>Roasted peppers with tomatoes and anchovies</item>
+        <item>Mediterranean chicken with roasted vegetables</item>
+        <item>Mediterranean slices</item>
+        <item>Parmesan-baked ricotta with tomato, olive and basil salad</item>
+        <item>Mediterranean fish stew with garlic toasts</item>
+        <item>Silvana\'s Mediterranean and basil pasta</item>
+        <item>Baked sea bass with romesco sauce</item>
+        <item>Tortilla with rocket and parmesan</item>
+        <item>10-minute couscous salad</item>
+        <item>Summer pepper and fish stew</item>
+        <item>Grilled Mediterranean veg with bean mash</item>
+        <item>Warm lentil salad with Serrano, chicken and rocket</item>
+        <item>Mediterranean-style bean salad</item>
+        <item>Tomato and thyme cod</item>
+        <item>Slow-roast tomatoes with Iberico ham and artichokes</item>
+        <item>Easy stuffed peppers</item>
+        <item>Paprika pork chops with roasted pepper couscous</item>
+        <item>Chorizo, new potato and haddock one-pot</item>
+        <item>Crunchy baked mussels</item>
+        <item>Tomato and chickpea bake</item>
+        <item>Mediterranean salmon fillet</item>
+        <item>Aïoli</item>
+        <item>Watermelon and feta salad with crispbread</item>
+        <item>Goat\'s cheese and red pepper tart</item>
+        <item>Roasted aubergine, tomato and basil pasta</item>
+        <item>Cod Provençal</item>
+        <item>Spinach with pine nuts and garlic</item>
+        <item>Balsamic roasted tomatoes</item>
+        <item>Creamy butter beans with quick fried prawns</item>
+        <item>Roast chicken with salsa and garlic mash</item>
+        <item>Flattened chicken with tomatoes, olives and capers</item>
+        <item>Crispy squid with caponata</item>
+        <item>Zingy courgette and spinach salad</item>
+        <item>Spiced baked figs with ginger mascarpone</item>
+        <item>Haddock baked with roasted peppers and feta</item>
+        <item>Potato and chorizo pizza breads with peppery tomato salad</item>
+        <item>Parma ham and peach plates</item>
+        <item>Mediterranean scones</item>
+        <item>Red mullet with tomatoes, olives and anchovies</item>
+        <item>Rosemary chicken with oven-roasted ratatouille</item>
+        <item>White beans with tomatoes and garlic</item>
+        <item>Chicken with tomato and olives</item>
+        <item>Giant couscous and aubergine salad</item>
+        <item>Cheesy baked courgettes</item>
+        <item>Mediterranean feta salad with pomegranate dressing</item>
+    </string-array>
+
+    <string-array name="Mexican_dish_name_array">
+        <item>Soft chicken tacos with black bean salsa</item>
+        <item>Chilli chocolate cookies</item>
+        <item>Mexican beef chilli</item>
+        <item>Mexican veggie wraps</item>
+        <item>Mexican chicken stew</item>
+        <item>Warm Mexican bean dip with tortilla chips</item>
+        <item>Chilli chicken fajitas</item>
+        <item>Mexican potatoes</item>
+        <item>Mexican soup with chicken</item>
+        <item>Grilled salmon with chilli glaze and lime crème fraîche</item>
+        <item>Soft chicken tacos with black bean salsa</item>
+        <item>Chilli con carne</item>
+        <item>Mexican fish wraps</item>
+        <item>Vegetable chilli bowl</item>
+        <item>Chicken nacho grills</item>
+        <item>Chicken enchiladas with red mole sauce</item>
+        <item>Spicy bean and avocado tostados</item>
+        <item>Mexican bean burgers with lime yogurt and salsa</item>
+        <item>Black bean chilli</item>
+        <item>Chicken and Peppadew quesadillas</item>
+        <item>Mexican bean salad</item>
+        <item>Spicy vegetable fajitas</item>
+        <item>Warm Mexican rice salad with borlotti beans and avocado salsa</item>
+        <item>Mexican supper pot</item>
+        <item>Pulled pork with Mexican almond mole sauce</item>
+        <item>Roll-your-own fajitas</item>
+        <item>Mexican chilli chicken</item>
+        <item>Gordon\'s chilli con carne</item>
+        <item>Lime and pepper chicken wraps</item>
+        <item>Chicken and bean enchiladas</item>
+        <item>Bean chilli tacos</item>
+        <item>Tex-Mex fish fillets</item>
+        <item>Corn cakes with avocado salsa</item>
+        <item>Pork tacos</item>
+        <item>Grilled chicken with spicy guacamole and corn chips</item>
+        <item>Homemade chicken nachos</item>
+        <item>Chicken fajitas with avocado and Caesar dressing</item>
+        <item>Tex-Mex chicken with guacamole</item>
+        <item>Rice pudding with raisin and cinnamon syrup</item>
+        <item>Pork tenderloin with chipotle sauce and pickled red onions</item>
+        <item>Chipotle chicken and black bean chilli</item>
+        <item>Little almond cookies</item>
+        <item>American-style pancakes with vanilla berry compote</item>
+        <item>15-Minute Dinner Nachos Supreme</item>
+        <item>1-Dish Taco Bake</item>
+        <item>7-Layer Meatless Tortilla Pie</item>
+        <item>7-Layer Taco Dip</item>
+        <item>A Big, Honkin\'s Margarita</item>
+        <item>Absolute Mexican Cornbread</item>
+        <item>Absolutely the Best Nacho Dip Ever</item>
+        <item>Acapulco Chicken</item>
+        <item>Acapulco Margarita Grouper</item>
+        <item>Achiote Paste</item>
+        <item>Across the Border Tequila Shrimp</item>
+        <item>Adobo Herb Salsa</item>
+        <item>Agua de Jamaica (Hibiscus Water)</item>
+        <item>Ajiaco (Beef and Pepper Stew)</item>
+        <item>Al Pastor Barbeque Sauce</item>
+        <item>Alaskan Spicy Spinach Dip</item>
+        <item>Albondigas</item>
+        <item>Albondigas Sinaloenses</item>
+        <item>Albondigas Soup I</item>
+        <item>Albuquerque Delight</item>
+        <item>Ali\'s Green Sauce</item>
+        <item>Amazing Calavacita and Pork</item>
+        <item>Amazing Southwest Cilantro Lime Mango Grilled Chicken Sandwiches</item>
+        <item>American Turkey Tacos</item>
+        <item>Amy\'s Cilantro Cream Sauce</item>
+        <item>Amy\'s Mexican Soup</item>
+        <item>Amy\'s Spicy Beans and Rice</item>
+        <item>Anaheim Fish Tacos</item>
+        <item>Ancho Chile Fettuccini with Cilantro-Tomatillo Cream Sauce</item>
+        <item>Ancho-Chipotle Salsa</item>
+        <item>Andi\'s Own Delightful Brunch Burritos</item>
+        <item>Andouille and Poblano Quesadillas</item>
+        <item>Andy\'s Spicy Green Chile Pork</item>
+        <item>Angela\'s Awesome Enchiladas</item>
+        <item>Angelica\'s Carne Asada Tacos</item>
+        <item>Anise Seed Borrachio Cookies</item>
+        <item>Asparagus Chicken Fajitas</item>
+        <item>Anne\'s Homemade Chorizo</item>
+        <item>Annie\'s Fruit Salsa and Cinnamon Chips</item>
+        <item>Antojitos Minis</item>
+        <item>Apple Enchilada Dessert</item>
+        <item>Apple Enchiladas</item>
+        <item>Apricot Salsa</item>
+        <item>Arizona Chicken</item>
+        <item>Armadillo Eggs</item>
+        <item>Arrachera (Skirt Steak Taco Filling)</item>
+        <item>Arroz Rojo</item>
+        <item>Asparagus and Goat Cheese Quesadillas</item>
+        <item>Asparagus Avocado Medley</item>
+        <item>Asparagus Guacamole</item>
+        <item>Asparagus \'Guacamole\'</item>
+        <item>Authentic Cochinita Pibil</item>
+        <item>Authentic Dried Chile-Pepito Enchilada Sauce</item>
+        <item>Authentic Huevos Rancheros</item>
+        <item>Authentic Mexican Breakfast Tacos</item>
+        <item>Authentic Mexican Chili Rellenos</item>
+        <item>Authentic Mexican Enchiladas</item>
+    </string-array>
+
+    <string-array name="Moroccan_dish_name_array">
+        <item>Moroccan meatball tagine with lemon and olives</item>
+        <item>Aromatic lamb with dates</item>
+        <item>Pumpkin, cranberry and red onion tagine</item>
+        <item>Moroccan spiced fish with ginger mash</item>
+        <item>Speedy Moroccan meatballs</item>
+        <item>Easy chicken tagine</item>
+        <item>Superfood salad with Moroccan dressing</item>
+        <item>Moroccan spiced pie</item>
+        <item>Tabbouleh</item>
+        <item>Moroccan spiced cauliflower and almond soup</item>
+        <item>Spiced bulghar wheat with roasted peppers</item>
+        <item>Moroccan chickpea soup</item>
+        <item>Moroccan kofte with spicy tomato sauce</item>
+        <item>Spicy Moroccan rice</item>
+        <item>Moroccan spiced carrots</item>
+        <item>Tangy couscous salad</item>
+        <item>Moroccan chard and lamb pan-fry</item>
+    </string-array>
+
+    <string-array name="Spanish_dish_name_array">
+        <item>Spanish rice with prawns and chorizo</item>
+        <item>Spanish chicken pie</item>
+        <item>Spiced tortilla</item>
+        <item>Spanish fig and almond balls</item>
+        <item>Spanish chicken</item>
+        <item>Easiest ever paella</item>
+        <item>Chorizo and chickpea soup</item>
+        <item>Spanish chicken with potatoes, garlic and sherry</item>
+        <item>Red mullet escabèche</item>
+        <item>Quick gazpacho</item>
+        <item>Spaghetti with Spanish flavours</item>
+        <item>Moro\'s arroz a la marinera</item>
+        <item>Crispy squid with capers</item>
+        <item>Garlicky prawns with sherry</item>
+        <item>Gazpacho</item>
+        <item>Spanish beans with chicken and chorizo</item>
+        <item>Spanish seafood rice</item>
+        <item>olive\'s paella</item>
+        <item>Spanish meatballs with clams, chorizo and squid</item>
+        <item>Spanish rice and prawn one-pot</item>
+        <item>Chorizo and tomato salad</item>
+        <item>Chicken with saffron, raisins and pine nuts</item>
+        <item>Warm salad of chicken livers, smoked paprika and Sherry</item>
+        <item>Chickpea, chorizo and spinach stew</item>
+        <item>Spanish potatoes</item>
+        <item>Besugo al horno (baked sea bream)</item>
+        <item>Sangria with lemons and oranges</item>
+        <item>Spanish spinach omelette</item>
+    </string-array>
+
+    <string-array name="Thai_dish_name_array">
+        <item>Thai shredded chicken and runner bean salad</item>
+        <item>Thai prawn, ginger and spring onion stir-fry</item>
+        <item>Crispy chilli beef with broccoli</item>
+        <item>Thai pork with pickled carrots</item>
+        <item>Thai beef stir-fry</item>
+        <item>Ken Hom\'s stir-fried chicken with chillies and basil</item>
+        <item>Thai-style steamed fish</item>
+        <item>Thai green chicken curry</item>
+        <item>Thai salmon with cucumber and dipping sauce</item>
+        <item>Thai red curry</item>
+        <item>The ultimate makeover: Thai green chicken curry</item>
+        <item>Pad Thai</item>
+        <item>Chilli cakes</item>
+        <item>Steamed shui mai dumplings</item>
+        <item>Fragrant Thai prawns</item>
+        <item>Thai rice noodle salad</item>
+        <item>Red curry chicken kebabs</item>
+        <item>Thai salmon noodles</item>
+        <item>Easy Thai prawn curry</item>
+        <item>Thai chicken cakes with sweet chilli sauce</item>
+        <item>Thai salmon cakes with carrot salad</item>
+        <item>Thai spinach bites</item>
+        <item>Vegetable Thai red curry</item>
+        <item>Thai coconut and veg broth</item>
+        <item>Spicy Thai prawn noodles</item>
+        <item>Thai pumpkin soup</item>
+        <item>Super-fast Pad Thai</item>
+        <item>Thai beef salad</item>
+        <item>Phat Thai</item>
+        <item>Bean Sprouts And Vegetable Salad</item>
+        <item>Clear Vegetable Soup With Tofu</item>
+        <item>Clear Vegetable Stock</item>
+        <item>Green Papaya Salad</item>
+        <item>Lettuce Wraps</item>
+        <item>Paneer, Mushrooms And Capsicum Satay</item>
+        <item>Peanut Sesame Vegetable</item>
+        <item>Phadthai Noodles</item>
+        <item>Thai Green Kodri</item>
+        <item>Thai Pineapple Kodri</item>
+        <item>Thai Stir-fried Noodles With Tofu</item>
+        <item>3 B Stir-fry</item>
+    </string-array>
+
+    <string-array name="USA_dish_name_array">
+        <item>Low Calorie White Sauce</item>
+        <item>Muesli</item>
+        <item>Nutritious Burger</item>
+        <item>Nutritious Burger-1</item>
+        <item>Vegetable Burger</item>
+        <item>Whole Wheat Vegetable Burger</item>
+        <item>A Good Barbeque Sauce</item>
+        <item>A Great Pepper Salad</item>
+        <item>A Number One Egg Bread</item>
+        <item>A Southern Fried Chicken</item>
+        <item>Aaron\'s Missouri Burger</item>
+        <item>Accidental Fish</item>
+        <item>Addictive Mashed Potatoes</item>
+        <item>Ahi Poke Basic</item>
+        <item>Ahi Poke Salad</item>
+        <item>Alabama Fire Crackers</item>
+        <item>Alabama Pulled Pig</item>
+        <item>Alaska Sheet Cake</item>
+        <item>Alcohol-Free Mint Julep</item>
+        <item>Ali\'s Coo Coo for Coconut Relish</item>
+        <item>Allana\'s Zesty Red Clam Chowder</item>
+        <item>Alligator Fingers</item>
+        <item>Alligator in Garlic-Wine Sauce</item>
+        <item>Alligator Pears and Apples</item>
+        <item>Alligator Swamp Water</item>
+        <item>All-Purpose Rub for Meat</item>
+        <item>Almond and Coconut Crusted Tilapia</item>
+        <item>Almond Cookies</item>
+        <item>Al\'s Sufferin\' Succotash</item>
+        <item>Amazing Almond Chicken Casserole</item>
+        <item>Amelia\'s Slow Cooker Brunswick Stew</item>
+        <item>Amish Casserole</item>
+        <item>Amish Cookies</item>
+        <item>Amish Meatloaf</item>
+        <item>Amish Potato Salad</item>
+        <item>Anadama Bread</item>
+        <item>Andy\'s Five Pepper Chicken Wings</item>
+        <item>Ann\'s Shrimp Etouffee</item>
+        <item>Another Pork Chop Casserole</item>
+        <item>Anthony\'s Lime Chicken with Pasta</item>
+        <item>Anytime Almonds</item>
+        <item>Apple and Spice Pork Roast</item>
+        <item>Apple Avocado Salad with Tangerine Dressing</item>
+        <item>Apple Banana Cupcakes</item>
+        <item>Apple Butter</item>
+        <item>Apple Butter I</item>
+        <item>Apple Butter II</item>
+        <item>Apple Butter III</item>
+        <item>Apple Cider Sauce and Pork Loin Chops</item>
+        <item>Apple Dumplings with Rich Cinnamon Sauce</item>
+        <item>Apple Jack Iowa Pork Chops from Des Moines</item>
+        <item>Apple Julep</item>
+        <item>Apple Lemon with Cinnamon Muffins</item>
+        <item>Apple Pie Waffles</item>
+        <item>Apple Toast</item>
+        <item>Apple Ugly Cake</item>
+        <item>Applesauce Cornbread</item>
+        <item>Apricot Brown Sugar Ham</item>
+        <item>Apricot Glazed Carrots</item>
+        <item>Apricot/Cranberry Chutney</item>
+        <item>Apricot-Glazed Spareribs</item>
+        <item>Arkansas Green Beans</item>
+        <item>Armadillo Eggs</item>
+        <item>Aromatic Asparagus</item>
+        <item>Arroz con Pollo II</item>
+        <item>Artichoke and Sun-dried Tomato Chicken</item>
+        <item>Artichokes</item>
+        <item>Ashley\'s African Peanut Soup</item>
+        <item>Asparagus Casserole I</item>
+        <item>Asparagus with Sliced Almonds and Parmesan Cheese</item>
+        <item>Audry\'s Shrimp Stew</item>
+        <item>Aunt Alma\'s Cauliflower Shrimp Ahoy</item>
+        <item>Aunt Fanny\'s Squash</item>
+        <item>Auntie Anita\'s Lobster Stew</item>
+        <item>Authentic Cincinnati Chili</item>
+        <item>Authentic Louisiana Red Beans and Ric</item>
+        <item>Authentic, No Shortcuts, Louisiana Red Beans and Rice</item>
+        <item>Avocado Feta Salsa</item>
+        <item>Avocado Pie</item>
+        <item>Avocado Salad with Bacon and Sour Cream</item>
+        <item>Avocado Tzatziki</item>
+        <item>Award Winning Chili Con Carne</item>
+        <item>Awesome and Easy Creamy Corn Casserole</item>
+        <item>Awesome Baked Sea Scallops</item>
+        <item>Awesome Turkey Giblet Stock</item>
+        <item>Awesomely Easy Sesame Asparagus</item>
+        <item>Bacon Baked Beans</item>
+        <item>Bacon Cheeseburger Cake</item>
+        <item>Bacon Mushroom Swiss Meatloaf</item>
+        <item>Baja-Style Fish Tacos</item>
+        <item>Baked Beans from Scratch</item>
+        <item>Baked Beans I</item>
+        <item>Baked Chicken Reuben</item>
+        <item>Baked Chicken and Okra</item>
+        <item>Baked Chicken and Brussels Sprouts</item>
+        <item>Baked Cider Doughnuts</item>
+        <item>Baked Beans II</item>
+        <item>Baked Corn Casserole</item>
+        <item>Baked Cod with Roasted Red Pepper Horseradish Sauce</item>
+        <item>Baked Beans III</item>
+    </string-array>
+
+    <string-array name="Australia_dish_name_array">
+        <item>Lamingtons</item>
+        <item>Asparagus and Mushroom Frittata</item>
+        <item>Baked Sweet Potato Sticks</item>
+        <item>Basic Truffles</item>
+        <item>Chile Garlic BBQ Salmon</item>
+        <item>Chocolate Covered Easter Eggs</item>
+        <item>Dill and Butter Squash</item>
+        <item>Fig and Lemon Chicken</item>
+        <item>Fish Chowder</item>
+        <item>Harvest Salad</item>
+        <item>Heavenly Chipped Chocolate and Hazelnut Cheesecake</item>
+        <item>Honey-Dijon Salmon and Asparagus</item>
+        <item>Hot Cross Buns I</item>
+        <item>Pistachio Crusted Chicken</item>
+        <item>Potato Salmon Patties</item>
+        <item>Pumpkin Soup</item>
+        <item>Pumpkin, Sweet Potato, and Leek Soup</item>
+        <item>Roast Chicken with Rosemary</item>
+        <item>Roasted Potatoes with Greens</item>
+        <item>Roasted Vegetables</item>
+        <item>Stuffed Leg of Lamb with Balsamic-Fig-Basil Sauce</item>
+        <item>The Best Pavlova</item>
+        <item>White Chocolate Cheesecake with White Chocolate Brandy Sauce</item>
+        <item>Zucchini Slice</item>
+        <item>Blueberry and lemon friands</item>
+        <item>Ricotta-filled courgette flowers, green olive tapenade and grilled ciabatta</item>
+        <item>Aussie burgers</item>
+        <item>Isaac\'s chocolate coconut squares</item>
+        <item>Squid, chickpea and chorizo salad</item>
+        <item>Barramundi with Moroccan spices</item>
+        <item>Sweet potato and feta salad</item>
+        <item>Beach bar special</item>
+        <item>Avocado and citrus dip with spicy spuds and tortilla chips</item>
+        <item>Crisp fried tofu with avocado salsa and watercress salad</item>
+        <item>Summer sausage rolls</item>
+        <item>Spiced smoky barbecued chicken</item>
+        <item>Peach punch</item>
+        <item>Season\'s chilli squid with aïoli</item>
+        <item>Sizzling spare ribs with BBQ sauce</item>
+        <item>Cocktail jellies</item>
+        <item>Salt and pepper squid</item>
+        <item>Beef, mushroom and red wine pies</item>
+        <item>Mini chilli beef pies</item>
+        <item>Sticky chicken drumsticks</item>
+        <item>Anzac biscuits</item>
+        <item>Spiced chicken meatballs with noodles, basil and broth</item>
+        <item>Warm chickpea, chorizo and pepper salad</item>
+        <item>River House\'s lemon oil cake</item>
+    </string-array>
+
+    <string-array name="British_Calories_array">
+        <item>451</item>
+        <item>373</item>
+        <item>634</item>
+        <item>911</item>
+        <item>476</item>
+        <item>663</item>
+        <item>424</item>
+        <item>285</item>
+        <item>293</item>
+        <item>233</item>
+        <item>855</item>
+        <item>568</item>
+        <item>520</item>
+        <item>431</item>
+        <item>824</item>
+        <item>371</item>
+        <item>763</item>
+        <item>329</item>
+        <item>484</item>
+        <item>993</item>
+        <item>768</item>
+        <item>972</item>
+        <item>306</item>
+        <item>549</item>
+        <item>378</item>
+        <item>754</item>
+        <item>618</item>
+        <item>199</item>
+        <item>596</item>
+        <item>245</item>
+        <item>459</item>
+        <item>57</item>
+        <item>306</item>
+        <item>637</item>
+        <item>647</item>
+    </string-array>
+
+    <string-array name="Caribbean_Calories_array">
+        <item>466</item>
+        <item>472</item>
+        <item>696</item>
+        <item>159</item>
+        <item>162</item>
+        <item>871</item>
+        <item>581</item>
+        <item>388</item>
+        <item>132</item>
+        <item>122</item>
+        <item>833</item>
+        <item>484</item>
+        <item>260</item>
+    </string-array>
+
+    <string-array name="Chinese_Calories_array">
+        <item>513</item>
+        <item>324</item>
+        <item>696</item>
+        <item>188</item>
+        <item>95</item>
+        <item>302</item>
+        <item>183</item>
+        <item>360</item>
+        <item>369</item>
+        <item>522</item>
+        <item>431</item>
+        <item>36</item>
+        <item>202</item>
+        <item>394</item>
+        <item>312</item>
+        <item>150</item>
+        <item>135</item>
+        <item>125 calories</item>
+        <item>266 calories</item>
+        <item>177</item>
+        <item>64</item>
+        <item>54</item>
+        <item>109</item>
+        <item>31</item>
+        <item>197</item>
+        <item>104</item>
+        <item>84</item>
+        <item>111</item>
+        <item>71</item>
+        <item>239</item>
+        <item>396</item>
+        <item>118</item>
+        <item>147</item>
+        <item>148</item>
+        <item>562</item>
+        <item>356</item>
+        <item>234</item>
+        <item>414</item>
+        <item>382</item>
+        <item>169</item>
+        <item>379</item>
+        <item>494</item>
+        <item>356</item>
+        <item>280</item>
+        <item>241</item>
+        <item>158</item>
+        <item>344</item>
+        <item>62</item>
+        <item>217</item>
+        <item>542</item>
+        <item>315</item>
+        <item>170</item>
+        <item>253</item>
+        <item>240</item>
+        <item>477</item>
+        <item>244</item>
+        <item>130</item>
+        <item>399</item>
+        <item>481</item>
+        <item>255</item>
+        <item>434</item>
+        <item>425</item>
+        <item>255</item>
+        <item>231</item>
+        <item>517</item>
+        <item>396</item>
+        <item>256</item>
+        <item>725</item>
+        <item>493</item>
+        <item>131</item>
+        <item>275</item>
+        <item>177</item>
+        <item>157</item>
+        <item>216</item>
+        <item>114</item>
+        <item>35</item>
+        <item>166</item>
+        <item>107</item>
+        <item>437</item>
+        <item>279</item>
+        <item>431</item>
+        <item>267</item>
+        <item>665</item>
+        <item>629</item>
+        <item>531</item>
+        <item>513</item>
+        <item>221</item>
+        <item>69</item>
+        <item>191</item>
+        <item>222</item>
+        <item>89</item>
+        <item>352</item>
+        <item>641</item>
+        <item>415</item>
+        <item>99</item>
+        <item>504</item>
+        <item>116</item>
+        <item>44</item>
+        <item>142</item>
+        <item>280</item>
+    </string-array>
+
+    <string-array name="French_Calories_array">
+        <item>537</item>
+        <item>509</item>
+        <item>518</item>
+        <item>405</item>
+        <item>474</item>
+        <item>379</item>
+        <item>152</item>
+        <item>396</item>
+        <item>439</item>
+        <item>263</item>
+        <item>429</item>
+        <item>451</item>
+        <item>209</item>
+        <item>336</item>
+        <item>625</item>
+        <item>427</item>
+        <item>511</item>
+        <item>473</item>
+        <item>132</item>
+        <item>195</item>
+        <item>135</item>
+        <item>171</item>
+        <item>100</item>
+        <item>233</item>
+        <item>185</item>
+        <item>178</item>
+        <item>260</item>
+        <item>417</item>
+        <item>321</item>
+        <item>129</item>
+        <item>754</item>
+        <item>371</item>
+        <item>487</item>
+        <item>464</item>
+        <item>73</item>
+        <item>31</item>
+        <item>550</item>
+        <item>250</item>
+        <item>339</item>
+        <item>546</item>
+        <item>250</item>
+        <item>156</item>
+        <item>139</item>
+        <item>225</item>
+        <item>216</item>
+        <item>406</item>
+        <item>106</item>
+        <item>367</item>
+        <item>458</item>
+        <item>583</item>
+        <item>325</item>
+        <item>816</item>
+        <item>578</item>
+        <item>334</item>
+        <item>263</item>
+        <item>202</item>
+        <item>143</item>
+        <item>394</item>
+        <item>217</item>
+        <item>3274kcalories</item>
+        <item>146</item>
+        <item>365</item>
+        <item>172</item>
+        <item>286</item>
+        <item>120</item>
+        <item>166</item>
+        <item>276</item>
+        <item>680</item>
+        <item>224</item>
+        <item>219</item>
+        <item>742</item>
+        <item>397</item>
+        <item>270</item>
+        <item>466</item>
+        <item>650</item>
+        <item>248</item>
+        <item>500</item>
+        <item>419</item>
+        <item>584</item>
+        <item>1711</item>
+        <item>587</item>
+        <item>405</item>
+        <item>557</item>
+        <item>261</item>
+        <item>330</item>
+        <item>671</item>
+        <item>429</item>
+        <item>193</item>
+        <item>236</item>
+        <item>434</item>
+        <item>142</item>
+        <item>639</item>
+        <item>371</item>
+        <item>183</item>
+        <item>354</item>
+        <item>706</item>
+        <item>187</item>
+        <item>374</item>
+        <item>449</item>
+        <item>327</item>
+    </string-array>
+    <string-array name="Greek_Calories_array">
+        <item>772</item>
+        <item>429</item>
+        <item>398</item>
+        <item>431</item>
+        <item>696</item>
+        <item>609</item>
+        <item>250</item>
+        <item>685</item>
+        <item>206</item>
+        <item>201</item>
+        <item>521</item>
+        <item>388</item>
+        <item>418</item>
+        <item>371</item>
+        <item>179</item>
+        <item>789</item>
+        <item>342</item>
+        <item>343</item>
+        <item>578</item>
+        <item>608</item>
+        <item>403</item>
+        <item>300</item>
+        <item>270</item>
+        <item>457</item>
+        <item>344</item>
+        <item>582</item>
+        <item>356</item>
+        <item>194</item>
+        <item>100</item>
+        <item>325</item>
+        <item>595</item>
+        <item>545</item>
+        <item>342</item>
+        <item>582</item>
+        <item>294</item>
+        <item>532</item>
+        <item>529</item>
+    </string-array>
+    <string-array name="Indian_Calories_array">
+        <item>527</item>
+        <item>519</item>
+        <item>117</item>
+        <item>371</item>
+        <item>541</item>
+        <item>469</item>
+        <item>444</item>
+        <item>551</item>
+        <item>393</item>
+        <item>761</item>
+        <item>255</item>
+        <item>407</item>
+        <item>463</item>
+        <item>714</item>
+        <item>38</item>
+        <item>81</item>
+        <item>168</item>
+        <item>611</item>
+        <item>79</item>
+        <item>137</item>
+        <item>222</item>
+        <item>148</item>
+        <item>54</item>
+        <item>125</item>
+        <item>94</item>
+        <item>66</item>
+        <item>21</item>
+        <item>153</item>
+        <item>112</item>
+        <item>38</item>
+        <item>25</item>
+        <item>220</item>
+        <item>71</item>
+        <item>58</item>
+        <item>59</item>
+        <item>88</item>
+        <item>101</item>
+        <item>98</item>
+        <item>229</item>
+        <item>240</item>
+        <item>127</item>
+        <item>8</item>
+        <item>13</item>
+        <item>46</item>
+        <item>55</item>
+        <item>55</item>
+        <item>139</item>
+        <item>175</item>
+        <item>172</item>
+        <item>214</item>
+        <item>81</item>
+        <item>161</item>
+        <item>74</item>
+        <item>100</item>
+        <item>87</item>
+        <item>176</item>
+        <item>10</item>
+        <item>78</item>
+        <item>101</item>
+        <item>303</item>
+        <item>30</item>
+        <item>119</item>
+        <item>152</item>
+        <item>35</item>
+        <item>82</item>
+        <item>46</item>
+        <item>118</item>
+        <item>206</item>
+        <item>166</item>
+        <item>164</item>
+        <item>237</item>
+        <item>123</item>
+        <item>263</item>
+        <item>127</item>
+        <item>55</item>
+        <item>337</item>
+        <item>283</item>
+        <item>73</item>
+        <item>84</item>
+        <item>93</item>
+        <item>120</item>
+        <item>113</item>
+        <item>9</item>
+        <item>88</item>
+        <item>165</item>
+        <item>235</item>
+        <item>62</item>
+        <item>105</item>
+        <item>86</item>
+        <item>19</item>
+        <item>60</item>
+        <item>112</item>
+        <item>223</item>
+        <item>155</item>
+        <item>68</item>
+        <item>85</item>
+        <item>121</item>
+        <item>197</item>
+        <item>326</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="Italian_Calories_array">
+        <item>647</item>
+        <item>332</item>
+        <item>534</item>
+        <item>594</item>
+        <item>667</item>
+        <item>582</item>
+        <item>455</item>
+        <item>489</item>
+        <item>78</item>
+        <item>874</item>
+        <item>626</item>
+        <item>205</item>
+        <item>659</item>
+        <item>257</item>
+        <item>736</item>
+        <item>616</item>
+        <item>140</item>
+        <item>215</item>
+        <item>881</item>
+        <item>420</item>
+        <item>913</item>
+        <item>568</item>
+        <item>431</item>
+        <item>445</item>
+        <item>443</item>
+        <item>578</item>
+        <item>608</item>
+        <item>274</item>
+        <item>406</item>
+        <item>417</item>
+        <item>454</item>
+        <item>137</item>
+        <item>408</item>
+        <item>596</item>
+        <item>312</item>
+        <item>574</item>
+        <item>497</item>
+        <item>396</item>
+        <item>546</item>
+        <item>411</item>
+        <item>503</item>
+        <item>346</item>
+        <item>399</item>
+        <item>256</item>
+        <item>132</item>
+        <item>195</item>
+        <item>83</item>
+        <item>168</item>
+        <item>149</item>
+        <item>124</item>
+        <item>34</item>
+        <item>72</item>
+        <item>171</item>
+        <item>165</item>
+        <item> 273</item>
+        <item>124</item>
+        <item>83</item>
+        <item>140</item>
+        <item>159</item>
+        <item>269</item>
+        <item>103</item>
+        <item>165</item>
+        <item>85</item>
+        <item>110</item>
+        <item>86</item>
+        <item>53</item>
+        <item>112</item>
+        <item>198</item>
+        <item>164</item>
+        <item>52</item>
+        <item>141</item>
+        <item>248</item>
+        <item>233</item>
+        <item>205</item>
+        <item>68</item>
+        <item>431</item>
+        <item>57</item>
+        <item>156</item>
+        <item>206</item>
+        <item>89</item>
+        <item>122</item>
+        <item>132</item>
+        <item>165</item>
+        <item>25</item>
+        <item>124</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="Mediterranean_Calories_array">
+        <item>411</item>
+        <item>321</item>
+        <item>162</item>
+        <item>568</item>
+        <item>515</item>
+        <item>354</item>
+        <item>241</item>
+        <item>452</item>
+        <item>457</item>
+        <item>382</item>
+        <item>327</item>
+        <item>296</item>
+        <item>306</item>
+        <item>320</item>
+        <item>367</item>
+        <item>172</item>
+        <item>185</item>
+        <item>387</item>
+        <item>578</item>
+        <item>534</item>
+        <item>301</item>
+        <item>292</item>
+        <item>322</item>
+        <item>661</item>
+        <item>342</item>
+        <item>471</item>
+        <item>610</item>
+        <item>633</item>
+        <item>127</item>
+        <item>76</item>
+        <item>419</item>
+        <item>677</item>
+        <item>339</item>
+        <item>569</item>
+        <item>78</item>
+        <item>327</item>
+        <item>251</item>
+        <item>287</item>
+        <item>215</item>
+        <item>293</item>
+        <item>356</item>
+        <item>288</item>
+        <item>155</item>
+        <item>531</item>
+        <item>235</item>
+        <item>159</item>
+        <item>258</item>
+    </string-array>
+    <string-array name="Mexican_Calories_array">
+        <item>508</item>
+        <item>142</item>
+        <item>551</item>
+        <item>427</item>
+        <item>203</item>
+        <item>144</item>
+        <item>526</item>
+        <item>195</item>
+        <item>257</item>
+        <item>529</item>
+        <item>508</item>
+        <item>387</item>
+        <item>576</item>
+        <item>133</item>
+        <item>326</item>
+        <item>569</item>
+        <item>355</item>
+        <item>195</item>
+        <item>339</item>
+        <item>562</item>
+        <item>430</item>
+        <item>466</item>
+        <item>378</item>
+        <item>489</item>
+        <item>794</item>
+        <item>495</item>
+        <item>546</item>
+        <item>474</item>
+        <item>464</item>
+        <item>490</item>
+        <item>361</item>
+        <item>245</item>
+        <item>436</item>
+        <item>385</item>
+        <item>439</item>
+        <item>484</item>
+        <item>679</item>
+        <item>478</item>
+        <item>317</item>
+        <item>305</item>
+        <item>295</item>
+        <item>52</item>
+        <item>367</item>
+        <item>588</item>
+        <item>526</item>
+        <item>440</item>
+        <item>639</item>
+        <item>100</item>
+        <item>743</item>
+        <item>47</item>
+        <item>333</item>
+        <item>511</item>
+        <item>46</item>
+        <item>279</item>
+        <item>59</item>
+        <item>97</item>
+        <item>579</item>
+        <item>53</item>
+        <item>360</item>
+        <item>326</item>
+        <item>294</item>
+        <item>353</item>
+        <item>244</item>
+        <item>155</item>
+        <item>388</item>
+        <item>555</item>
+        <item>738</item>
+        <item>230</item>
+        <item>248</item>
+        <item>96</item>
+        <item>273</item>
+        <item>540</item>
+        <item>14</item>
+        <item>587</item>
+        <item>598</item>
+        <item>169</item>
+        <item>709</item>
+        <item>297</item>
+        <item>111</item>
+        <item>350</item>
+        <item>251</item>
+        <item>312</item>
+        <item>109</item>
+        <item>484</item>
+        <item>530</item>
+        <item>30</item>
+        <item>277</item>
+        <item>541</item>
+        <item>150</item>
+        <item>217</item>
+        <item>285</item>
+        <item>122</item>
+        <item>35</item>
+        <item>22</item>
+        <item>468</item>
+        <item>114</item>
+        <item>495</item>
+        <item>537</item>
+        <item>263</item>
+        <item>477</item>
+    </string-array>
+    <string-array name="Moroccan_Calories_array">
+        <item>394</item>
+        <item>343</item>
+        <item>449</item>
+        <item>445</item>
+        <item>388</item>
+        <item>304</item>
+        <item>383</item>
+        <item>987</item>
+        <item>320</item>
+        <item>200</item>
+        <item>364</item>
+        <item>148</item>
+        <item>316</item>
+        <item>602</item>
+        <item>95</item>
+        <item>269</item>
+        <item>438</item>
+    </string-array>
+    <string-array name="Spanish_Calories_array">
+        <item>627</item>
+        <item>421</item>
+        <item>327</item>
+        <item>306</item>
+        <item>701</item>
+        <item>518</item>
+        <item>366</item>
+        <item>871</item>
+        <item>163</item>
+        <item>126</item>
+        <item>444</item>
+        <item>593</item>
+        <item>287</item>
+        <item>108</item>
+        <item>288</item>
+        <item>803</item>
+        <item>369</item>
+        <item>667</item>
+        <item>795</item>
+        <item>356</item>
+        <item>184</item>
+        <item>587</item>
+        <item>543</item>
+        <item>487</item>
+        <item>217</item>
+        <item>858</item>
+        <item>233</item>
+        <item>209</item>
+    </string-array>
+    <string-array name="Thai_Calories_array">
+        <item>214</item>
+        <item>294</item>
+        <item>676</item>
+        <item>291</item>
+        <item>178</item>
+        <item>200</item>
+        <item>199</item>
+        <item>337</item>
+        <item>323</item>
+        <item>273</item>
+        <item>487</item>
+        <item>531</item>
+        <item>124</item>
+        <item>143</item>
+        <item>137</item>
+        <item>153</item>
+        <item>251</item>
+        <item>391</item>
+        <item>180</item>
+        <item>306</item>
+        <item>475</item>
+        <item>36</item>
+        <item>148</item>
+        <item>338</item>
+        <item>385</item>
+        <item>192</item>
+        <item>405</item>
+        <item>317</item>
+        <item>750</item>
+        <item>89</item>
+        <item>60</item>
+        <item>32</item>
+        <item>56</item>
+        <item>36</item>
+        <item>136</item>
+        <item>205</item>
+        <item>179</item>
+        <item>96</item>
+        <item>173 kcaories</item>
+        <item>154</item>
+        <item>135</item>
+    </string-array>
+    <string-array name="USA_Calories_array">
+        <item>87</item>
+        <item>282</item>
+        <item>231</item>
+        <item>244</item>
+        <item>433</item>
+        <item>274</item>
+        <item>67</item>
+        <item>759</item>
+        <item>214</item>
+        <item>806</item>
+        <item>529</item>
+        <item>556</item>
+        <item>295</item>
+        <item>396</item>
+        <item>203</item>
+        <item>181</item>
+        <item>363</item>
+        <item>328</item>
+        <item>122</item>
+        <item>130</item>
+        <item>183</item>
+        <item>487</item>
+        <item>316</item>
+        <item>294</item>
+        <item>215</item>
+        <item>27</item>
+        <item>437</item>
+        <item>173</item>
+        <item>132</item>
+        <item>696</item>
+        <item>405</item>
+        <item>630</item>
+        <item>117</item>
+        <item>464</item>
+        <item>497</item>
+        <item>145</item>
+        <item>535</item>
+        <item>205</item>
+        <item>350</item>
+        <item>864</item>
+        <item>237</item>
+        <item>162</item>
+        <item>144</item>
+        <item>151</item>
+        <item>24</item>
+        <item>115</item>
+        <item>78</item>
+        <item>40</item>
+        <item>325</item>
+        <item>481</item>
+        <item>756</item>
+        <item>121</item>
+        <item>228</item>
+        <item>276</item>
+        <item>124</item>
+        <item>514</item>
+        <item>155</item>
+        <item>801</item>
+        <item>119</item>
+        <item>89</item>
+        <item>975</item>
+        <item>146</item>
+        <item>541</item>
+        <item>183</item>
+        <item>521</item>
+        <item>249</item>
+        <item>133</item>
+        <item>202</item>
+        <item>307</item>
+        <item>178</item>
+        <item>271</item>
+        <item>299</item>
+        <item>259</item>
+        <item>554</item>
+        <item>225</item>
+        <item>630</item>
+        <item>556</item>
+        <item>66</item>
+        <item>280</item>
+        <item>358</item>
+        <item>78</item>
+        <item>495</item>
+        <item>376</item>
+        <item>440</item>
+        <item>407</item>
+        <item>78</item>
+        <item>254</item>
+        <item>449</item>
+        <item>696</item>
+        <item>489</item>
+        <item>122</item>
+        <item>261</item>
+        <item>446</item>
+        <item>348</item>
+        <item>135</item>
+        <item>137</item>
+        <item>287</item>
+        <item>282</item>
+        <item>262</item>
+        <item>526</item>
+    </string-array>
+    <string-array name="Australia_Calories_array">
+        <item>284</item>
+        <item>199</item>
+        <item>132</item>
+        <item>62</item>
+        <item>438</item>
+        <item>206</item>
+        <item>92</item>
+        <item>323</item>
+        <item>356</item>
+        <item>338</item>
+        <item>638</item>
+        <item>437</item>
+        <item>217</item>
+        <item>459</item>
+        <item>252</item>
+        <item>307</item>
+        <item>252</item>
+        <item>291</item>
+        <item>419</item>
+        <item>72</item>
+        <item>631</item>
+        <item>186</item>
+        <item>596</item>
+        <item>384</item>
+        <item>316</item>
+        <item>552</item>
+        <item>352</item>
+        <item>225</item>
+        <item>443</item>
+        <item>440</item>
+        <item>501</item>
+        <item>383</item>
+        <item>396</item>
+        <item>511</item>
+        <item>119</item>
+        <item>628</item>
+        <item>161</item>
+        <item>1237</item>
+        <item>484</item>
+        <item>266</item>
+        <item>109</item>
+        <item>535</item>
+        <item>137</item>
+        <item>167</item>
+        <item>118</item>
+        <item>536</item>
+        <item>629</item>
+        <item>414</item>
+    </string-array>
+    <string-array name="Vegetables_Array">
+        <item>Aubergine (eggplant), raw</item>
+        <item>Alfalfa sprouts, raw</item>
+        <item>Artichoke Jerusalem, boiled</item>
+        <item>Asparagus, boiled</item>
+        <item>Asparagus, canned, drained</item>
+        <item>Shoots, canned</item>
+        <item>Beansprouts mung, raw</item>
+        <item>Beetroot, raw</item>
+        <item>Beetroot, boiled</item>
+        <item>Beetroot, pickled, drained</item>
+        <item>Broccoli, green, boiled</item>
+        <item>Broccoli, green, raw</item>
+        <item>Broccoli, purple, boiled</item>
+        <item>Broccoli, purple, raw</item>
+        <item>Brussels Sprouts, boiled</item>
+        <item>Cabbage spring, boiled</item>
+        <item>Cabbage Chinese, raw</item>
+        <item>Cabbage red, boiled/steamed</item>
+        <item>Cabbage Savoy, boiled/steamedraw</item>
+        <item>Cabbage, white or green raw</item>
+        <item>Capsicum Pepper, green, raw</item>
+        <item>Capsicum Pepper, red, raw</item>
+        <item>Carrots, old, boiled</item>
+        <item>Carrots, young, raw</item>
+        <item>Cassava chips</item>
+        <item>Cassava, steamed</item>
+        <item>Cauliflower, boiled</item>
+        <item>Celeriac, raw</item>
+        <item>Celery, raw</item>
+        <item>Corn, baby sweetcorn, boiled</item>
+        <item>Corn kernels, canned</item>
+        <item>Corn kernels, raw</item>
+        <item>Corn-on-cob, boiled, plain</item>
+        <item>Courgette (Zucchini), raw</item>
+        <item>Curly Kale, raw</item>
+        <item>Cucumber, raw</item>
+        <item>Chicory, raw</item>
+        <item>Collard greens</item>
+        <item>Eggplant (aubergine), raw</item>
+        <item>Endive (Escarole)</item>
+        <item>Fennel bulb</item>
+        <item>Garlic, fresh, raw</item>
+        <item>Leeks, raw</item>
+        <item>Lettuce leaf, butterhead, raw</item>
+        <item>Lettuce, cos, romaine, raw</item>
+        <item>Lettuce, Iceberg, raw</item>
+        <item>Marrow, boiled</item>
+        <item>Mushrooms, common, raw</item>
+        <item>Potatoes, new, boiled/steamed</item>
+        <item>Potatoes, old, boiled/steamed</item>
+        <item>Potatoes, roasted in oil</item>
+        <item>Potato, 1 medium baked</item>
+        <item>Kidney Beans, boiled, 1/2 cup</item>
+        <item>Broccolli, 1 cup chopped</item>
+        <item>Corn (kernels), 1/2 cup kernels</item>
+        <item>Onion, 1/2 cup chopped</item>
+        <item>Peas, 1/4 cup</item>
+        <item>Peppers (bell or sweet) ,1 cup sliced</item>
+        <item>Pumpkin, 1/2 cup mashed</item>
+        <item>Spinach,1/2 cup</item>
+        <item>Sweet potato, 1 cup, baked, with skin</item>
+        <item>Alfalfa Sprouts Artichoke</item>
+        <item>French Beans</item>
+        <item>Borlotti</item>
+        <item>Lima</item>
+        <item>Broad</item>
+        <item>Broccoli</item>
+        <item>Brussel Sprouts</item>
+        <item>Celery</item>
+        <item>Chick Peas (cooked)</item>
+        <item>Choko</item>
+        <item>Cucumber</item>
+        <item>Dill Pickles</item>
+        <item>Egg Plant - (raw)</item>
+        <item>Gherkin Sweet</item>
+        <item>Horseradish</item>
+        <item>Kale</item>
+        <item>Kohlrabi</item>
+        <item>Lettuce (all types)</item>
+        <item>Leeks</item>
+        <item>Lentils (cooked)</item>
+        <item>Marrow</item>
+        <item>Mung Beans - Sprouts</item>
+        <item>Seeds</item>
+        <item>Mushrooms - button, umbrella</item>
+        <item>Mustard Greens</item>
+        <item>Okra</item>
+        <item>Parsnip</item>
+        <item>Snow</item>
+        <item>Sugar snap</item>
+        <item>Turnip</item>
+        <item>Taro</item>
+        <item>Yellow squash</item>
+        <item>Swiss chard</item>
+        <item>Squash, Winter</item>
+        <item>Spirulina (seaweed)</item>
+        <item>Rapini</item>
+        <item>Jicama</item>
+        <item>Daikon Radish</item>
+        <item>Bok Choy</item>
+        <item>Amaranth leaves</item>
+        <item>Green beans nutrition facts</item>
+        <item>Rhubarb</item>
+        <item>Tomato</item>
+        <item>Yams</item>
+        <item>Arugula</item>
+        <item>Bell pepper</item>
+        <item>Green peas</item>
+        <item>Purslane</item>
+        <item>Shallots</item>
+        <item>Turnips</item>
+        <item>Zucchini</item>
+        <item>Bitter gourd</item>
+        <item>Watercress</item>
+        <item>Lady Finger</item>
+    </string-array>
+    <string-array name="veg_calories">
+        <item>15</item>
+        <item>24</item>
+        <item>41</item>
+        <item>22</item>
+        <item>19</item>
+        <item>11</item>
+        <item>31</item>
+        <item>36</item>
+        <item>46</item>
+        <item>28</item>
+        <item>24</item>
+        <item>33</item>
+        <item>19</item>
+        <item>35</item>
+        <item>35</item>
+        <item>18</item>
+        <item>12</item>
+        <item>29</item>
+        <item>24</item>
+        <item>28</item>
+        <item>15</item>
+        <item>32</item>
+        <item>24</item>
+        <item>30</item>
+        <item>354</item>
+        <item>142</item>
+        <item>28</item>
+        <item>18</item>
+        <item>7</item>
+        <item>24</item>
+        <item>123</item>
+        <item>93</item>
+        <item>66</item>
+        <item>18</item>
+        <item>35</item>
+        <item>10</item>
+        <item>14</item>
+        <item>30</item>
+        <item>15</item>
+        <item>11</item>
+        <item>12</item>
+        <item>98</item>
+        <item>22</item>
+        <item>12</item>
+        <item>16</item>
+        <item>13</item>
+        <item>9</item>
+        <item>13</item>
+        <item>75</item>
+        <item>86</item>
+        <item>151</item>
+        <item>161</item>
+        <item>108</item>
+        <item>35</item>
+        <item>354</item>
+        <item>36</item>
+        <item>36</item>
+        <item>18</item>
+        <item>23</item>
+        <item>20</item>
+        <item>180</item>
+        <item>30</item>
+        <item>20</item>
+        <item>30</item>
+        <item>113</item>
+        <item>20</item>
+        <item>60</item>
+        <item>20</item>
+        <item>253</item>
+        <item>164</item>
+        <item>100</item>
+        <item>15</item>
+        <item>43</item>
+        <item>35</item>
+        <item>505</item>
+        <item>209</item>
+        <item>15</item>
+        <item>27</item>
+        <item>35</item>
+        <item>17</item>
+        <item>353</item>
+        <item>70</item>
+        <item>20</item>
+        <item>559</item>
+        <item>314</item>
+        <item>30</item>
+        <item>30</item>
+        <item>75</item>
+        <item>60</item>
+        <item>42</item>
+        <item>28</item>
+        <item>112</item>
+        <item>37</item>
+        <item>20</item>
+        <item>34</item>
+        <item>290</item>
+        <item>280</item>
+        <item>38</item>
+        <item>38</item>
+        <item>13</item>
+        <item>23</item>
+        <item>31</item>
+        <item>21</item>
+        <item>18</item>
+        <item>118</item>
+        <item>25</item>
+        <item>31</item>
+        <item>81</item>
+        <item>16</item>
+        <item>72</item>
+        <item>28</item>
+        <item>17</item>
+        <item>17</item>
+        <item>11</item>
+        <item>41</item>
+    </string-array>
+    <string-array name="Fruit_array">
+        <item>Apples, Extra Small</item>
+        <item>Apples, Small</item>
+        <item>Apples, Medium</item>
+        <item>Apples, Large</item>
+        <item>Apple with skin raw, Small</item>
+        <item>Apple with skin raw, Medium</item>
+        <item>Apple with skin raw, Large</item>
+        <item>Apples, sweetened, sliced, drained, unheated, Serving</item>
+        <item>Apples, sweetened, sliced, drained, unheated, cup,slices</item>
+        <item>Organic Gala Apple, Medium</item>
+        <item>Rose-apples, Pre Fruit</item>
+        <item>Apricot fruit, Medium</item>
+        <item>Apricots Large</item>
+        <item>Apricots cup, halves</item>
+        <item>Apricots cup, sliced</item>
+        <item>Apricots - Canned Apricots,1 Cup halves</item>
+        <item>Apricots - Dehydrated and Dried Apricots, 1 Cup</item>
+        <item>Apricots - Frozen Apricots, 1 Cup</item>
+        <item>Avocado,Californian, raw, Small</item>
+        <item>Avocado Medium</item>
+        <item>Asian Nashi Fruit, raw, edible portion</item>
+        <item>Abiyuch, Juice, raw</item>
+        <item>Acerola, (west indian cherry), raw</item>
+        <item>SlimCado Avocado, Serving</item>
+        <item>Abiyuch, 1/2 Cup</item>
+        <item>Canned Apples, 1 Cup Slices</item>
+        <item>Apples  Dehydrated and Dried Apples, 1 Cup</item>
+        <item>Frozen Apples, 1 Cup Slices</item>
+        <item>Banana, Extra Small</item>
+        <item>Banana, Small</item>
+        <item>Banana, Medium</item>
+        <item>Banana, Large</item>
+        <item>Blueberries Cup,Unthawed</item>
+        <item>Blueberries, Package</item>
+        <item>Blueberries, 1 Cup</item>
+        <item>Blueberries, heavy syrup, solids &amp; liquids, Serving, 1/2 cup</item>
+        <item>Blueberries, heavy syrup, solids &amp; liquids, Cup</item>
+        <item>Breadfruit, 1 Cup</item>
+        <item>Boysenberries, 1 Cup</item>
+        <item>Boysenberries, 1 Package</item>
+        <item>Carissa, 1 Cup Slices</item>
+        <item>Craisins, Sweetened Dried Cranberries,  1 Cup</item>
+        <item>Carambola (Starfruit), raw, Small</item>
+        <item>Carambola (Starfruit),raw, Medium</item>
+        <item>Carambola(Starfruit), raw, cup,Sliced</item>
+        <item>Carambola(Starfruit), raw, cup,Large</item>
+        <item>Carambola(Starfruit), raw, cup, cubes</item>
+        <item>Cranberries, raw, cup ,whole</item>
+        <item>Cranberries, raw, cup chopped</item>
+        <item>Cantaloupe (rock melon), cup cubed</item>
+        <item>Carambola Star Fruit, Medium</item>
+        <item>Cherries, sweet, Small</item>
+        <item>Cherries, Medium</item>
+        <item>Cherries, sour, red, raw,cup</item>
+        <item>Maraschino Cherries, NLEA Serving</item>
+        <item>Coconut Water, 250mls</item>
+        <item>Crab Apples, Cup sliced</item>
+        <item>Cranberries, 1/2 Cup</item>
+        <item>Cumquats, 6 Large</item>
+        <item>Currants, 1/2 Cup</item>
+        <item>Custard Apple, Medium</item>
+        <item>California Blood Oranges, Serving</item>
+        <item>Cherimoya, Per Serving</item>
+        <item>Chinese Pear, about 3 inches in diameter</item>
+        <item>Crabapples, 1 Cup Slices</item>
+        <item>Cumquats/Kumquats, 1 Medium</item>
+        <item>Dates, deglet noor,fruit</item>
+        <item>Dates, deglet noor, cup chopped</item>
+        <item>Dates, Only 3</item>
+        <item>Dates, medjool, edible portion date ,Pitted</item>
+        <item>Durian, raw, edible portion, cup chopped or diced</item>
+        <item>Durian, raw, edible portion, Fruit</item>
+        <item>Diced Pears, Container</item>
+        <item>Dried dates, 10 pieces Medium</item>
+        <item>Dried figs, 10 pieces Medium</item>
+        <item>Durian, 1 Fruit</item>
+        <item>Feijoa, 1 Cup Pureed</item>
+        <item>Elderberries, Medium</item>
+        <item>Elderberries, 1/4 cup</item>
+        <item>Figs Small</item>
+        <item>Figs, Medium</item>
+        <item>Figs Large</item>
+        <item>Fruit Salad (fresh average) 1 cup</item>
+        <item>Feijoa, 1 Medium Size</item>
+        <item>Grapefruit, Medium</item>
+        <item>Grapes Serving, 10 Grapes</item>
+        <item>Gooseberries, 1 Cup</item>
+        <item>Grapefruit, sections, light syrup, solids &amp; liquids, Serving 1/2 cup</item>
+        <item>Java plum, 3 Fruit</item>
+        <item>Java plum, 1 Cup</item>
+        <item>Jackfruit, Medium</item>
+        <item>Jackfruit, raw, edible portion, cup, sliced</item>
+        <item>Jujube, raw, edible portion, Serving</item>
+        <item>Jicama, Small raw</item>
+        <item>Kiwifruit, Small</item>
+        <item>Kiwifruit, Mideium</item>
+        <item>Kiwi, Serving</item>
+        <item>Lemon, Medium</item>
+        <item>Lemons, without peel, wedge or slice</item>
+        <item>Lemons, without peel, fruit Medium</item>
+        <item>Lemons, without peel, fruit Large</item>
+        <item>Lemons, without peel, cup, sections</item>
+        <item>Lemon Peel / Zest, raw, Teaspoon	</item>
+        <item>Lemon Peel / Zest, raw, Tablespoon</item>
+        <item>Lime, Small</item>
+        <item>Lime, Large</item>
+        <item>Lychees, Medium</item>
+        <item>Lychees, Large</item>
+        <item>Lychee, 1 Cup</item>
+        <item>Loquat, Serving Size 1 piece</item>
+        <item>Mandarin, Medium</item>
+        <item>Mango Medium</item>
+        <item>Mangos, Cup, sliced</item>
+        <item>Mangos, Fruit without refuse</item>
+        <item>Mulberries 1 cup</item>
+        <item>Minneola Tangelo, Medium</item>
+        <item>Mammy apple,Per 1 Fruit Without Refuse</item>
+        <item>Nectarine, Medium</item>
+        <item>Nectacotum Pluots, 1 Cup</item>
+        <item>Olives (all types), Medium</item>
+        <item>Spanish Green Olives, Manzanilla, Stuffed w. Pimento,Serving, 5 Olives</item>
+        <item>Mediterranean Olives, Kalamata, Pitted, Serving</item>
+        <item>Oranges, Small</item>
+        <item>Oranges, Medium</item>
+        <item>Oranges, Large</item>
+        <item>Oranges California Navels, edible portion, Medium</item>
+        <item>Oranges, Florida, edible portion,cup sections membranes</item>
+        <item>Orange Peel, Teaspoon</item>
+        <item>Orange Peel,Tablespoon</item>
+        <item>Orange Mandarin, Large raw</item>
+        <item>Tangerines, mandarin oranges, in light syrup, Serving 1/2 cup</item>
+        <item>Tangerines, mandarin oranges, in light syrup,cup</item>
+        <item>Tangelo, Medium raw</item>
+        <item>Tomato, 1 Medium</item>
+        <item>Tomato Cherry, Pre Fruit</item>
+        <item>Papaya,1 Cup of cubed</item>
+        <item>Pawpaw (Papaya), Small</item>
+        <item>Passion fruit, Medium</item>
+        <item>Peaches, Small</item>
+        <item>Peaches, Medium</item>
+        <item>Peaches, Large</item>
+        <item>Pears, Medium</item>
+        <item>Pears, light syrup, solids &amp; liquids, half, with liquid</item>
+        <item>Pears, lihgt syrup, solids &amp; liquids, Serving</item>
+        <item>Pears, lihgt syrup, solids &amp; liquids, cup halves</item>
+        <item>Pineapple Slice</item>
+        <item>Pineapple, in juice, solids &amp; liquids,Slice ro ring 3 dia with liquid</item>
+        <item>Pineapple Rings, Serving, 2 piececs</item>
+        <item>Pineapple, Package</item>
+        <item>Plums raw Small</item>
+        <item>Plums, Medium</item>
+        <item>Pomegranates</item>
+        <item>Pomegranate, Medium</item>
+        <item>Prunes , Medium</item>
+        <item>Prune Making Plums, Serving</item>
+        <item>Prunes, cup pitted</item>
+        <item>Prunes, Dried, Uncooked, 6 X Prunes</item>
+        <item>Prunes, Dried, Uncooked, 1 X Prunes</item>
+        <item>Persimmons, Japanese,1  fruit</item>
+        <item>Peaches, in juice, solids &amp; liquids,half, with liquid</item>
+        <item>Peaches, in juice, solids and liquids, cup, halves or slices</item>
+        <item>Peaches, in juice, solids and liquids, cup</item>
+        <item>Peaches, sliced, sweetened, Serving, 10 Slices</item>
+        <item>Peaches, sliced, sweetened, cup thawed</item>
+        <item>Peaches, sliced, sweetened, Packages</item>
+        <item>Passion fruit, 1 Medium</item>
+        <item>Pitanga, Per 1 Cup</item>
+        <item>Passion Fruit , Per Fruit</item>
+        <item>Paw Paw, Pre Fruit</item>
+        <item>Pears  Canned Pears, 1 Cup	</item>
+        <item>Passion fruit, 1 Fruit  Without crefuse</item>
+        <item>Passion fruit, 1 Cup</item>
+        <item>Quince, Medium</item>
+        <item>Raspberries 1 Serving</item>
+        <item>Rhubarb, cup cubes</item>
+        <item>Satsuma</item>
+        <item>Sapotes, Medium</item>
+        <item>Strawberries, Small</item>
+        <item>Strawberries, Medium</item>
+        <item>Strawberries, Large</item>
+        <item>Strawberries, Extra Large	</item>
+        <item>Strawberries,1 Berry</item>
+        <item>Strawberries,cup, unthawed</item>
+        <item>Strawberries, cup, thawed</item>
+        <item>Strawberries, Package</item>
+        <item>Strawberries, sweetened, sliced cup, thawed</item>
+        <item>Strawberries, sweetened, sliced, package</item>
+        <item>Squash Butternut, Cup cubed</item>
+        <item>Squash Hubbard, Serving raw</item>
+        <item>Satsuma, Medium</item>
+        <item>Satsuma, Large</item>
+        <item>Sapote (black), per 1 Serving</item>
+        <item>Starfruit aka Carambola, 1 Cup</item>
+        <item>Sapodilla, 1 Fruit</item>
+        <item>Sapodilla, 1 Sapodilla</item>
+        <item>Sapodilla, 1 Cup, Pulp</item>
+        <item>Sapotes, 1 Cup</item>
+        <item>Soursop, 1 Fruit ,Medium</item>
+        <item>Sugar apples,1 Cup</item>
+        <item>Tangerine, Small</item>
+        <item>Watermelon, raw ,serving,10 balls(4.3 oz)</item>
+        <item>Honeydew Melon Small Melon</item>
+        <item>Honeydew Melon Medium</item>
+        <item>Honeydew Melon Serving 10 balls</item>
+        <item>Hass Avocado, 1 Cup</item>
+        <item>Melon Balls, Wedge , Small</item>
+        <item>Melon Balls, Wedge, Medium</item>
+        <item>Melon Balss, Wedge, Large</item>
+        <item>Melon Balss, Wedge, NLEA Serving</item>
+        <item>Melons, Honeydew, Cup,  balls</item>
+        <item>Melons, Honeydew, Cup, Diced</item>
+        <item>Melons, Honeydew, NLEA Serving</item>
+        <item>Melons, Honeydew, 10 X Honeydew balls</item>
+        <item>Mamey Sapote, 1 cup Serving</item>
+        <item>Mangosteen, 1 cup</item>
+        <item>Boysenberries, 1 cup</item>
+        <item>Durian, Medium</item>
+        <item>Gooseberries, Medium</item>
+        <item>Grapes, American (slip skin), raw, edible portion, Medium</item>
+        <item>Grapefruit, pink , Medium</item>
+        <item>Grapefruit, white, Small</item>
+        <item>Grapes, red or green, Medium</item>
+        <item>Guavas, Medium</item>
+        <item>Guavas, Fruit , Extra Large</item>
+        <item>Guavas, cup</item>
+        <item>Gooseberries,Per Fruit</item>
+        <item>Kumquats, Medium</item>
+        <item>Krinos Pitted Kalamata Olives, 5 Olives</item>
+        <item>Kiwi Fruit (chinese gooseberries), raw, edible portion, Medium</item>
+        <item>Kiwi Fruit (chinese gooseberries), raw, edible portion,Large</item>
+        <item>Kumquats, raw, edible portion, Fruit w.no refuser</item>
+        <item>Litchis, 1 Fruit</item>
+        <item>Litchis, 1 Cup</item>
+        <item>Litchis, Medium</item>
+        <item>Limes, 1 Fruit</item>
+        <item>Loganberries, Medium</item>
+        <item>Loganberries,1 Cup</item>
+        <item>Longans, 1 Fruit Without refuse</item>
+        <item>Longans, Longans, Dried</item>
+        <item>Loquats, Small</item>
+        <item>Loquats, Medium</item>
+        <item>Loquats, Large</item>
+        <item>Loquats, 1 Cup, Cubed</item>
+        <item>Lychies, 1 Fruit</item>
+        <item>Nectarines, Small</item>
+        <item>Nectarines, Medium</item>
+        <item>Nectarines, Large</item>
+        <item>Oheloberries, Small</item>
+        <item>Olives, black, Large</item>
+        <item>Olives, black, Small</item>
+        <item>Olives, green, Medium</item>
+        <item>Ripe Black Olives, Serving</item>
+        <item>Olives, Greek Black, ripe ,Serving</item>
+        <item>Olives, Ripe, Canned, Small</item>
+        <item>Olives, Ripe, Canned, Large</item>
+        <item>Papayas, Small</item>
+        <item>Papayas,cup,Mashed</item>
+        <item>Papayas, Medium</item>
+        <item>Papayas, Large</item>
+        <item>Pears, Bosc, edible portion, Small</item>
+        <item>Pears, Bosc, edible portion, Medium</item>
+        <item>Pears, Bosc, edible portion, Large</item>
+        <item>Pears, US</item>
+        <item>Pears, Asian</item>
+        <item>Persimmons, US</item>
+        <item>Persimmons, Japanese</item>
+        <item>Pear, Medium	</item>
+        <item>Plantains</item>
+        <item>Prickly pears</item>
+        <item>Prickly pears, fruit without refuse</item>
+        <item>Prickly pears, cup</item>
+        <item>Pummelo</item>
+        <item>Pummelo, raw, edible portion, cup, Sections</item>
+        <item>Pummelo, raw, edible portion,Fruit Without refuse</item>
+        <item>D\'Anjou Pears, 1 Medium Pears</item>
+        <item>Quinces</item>
+        <item>Tamarinds</item>
+        <item>Tangerines, mandarin oranges, in juice, cup</item>
+        <item>Tangerines (mandarin oranges), raw,Small</item>
+        <item>Tangerines (mandarin oranges), raw,Medium</item>
+        <item>Tangerines (mandarin oranges),raw,Large</item>
+        <item>Tangerines</item>
+        <item>Tamarind, raw, Fruit,3\'x 1\'</item>
+        <item>Tamarind,raw, cup, pulp</item>
+        <item>Cantaloupe Melon Wedge,Small</item>
+        <item>Cantaloupe Melon Wedge,Medium</item>
+        <item>Cantaloupe Melon Wedge, Large</item>
+        <item>Cantaloupe, Serving, 1/4 Medium</item>
+        <item>Clementine, Medium</item>
+        <item>Raisins, seedless miniature box</item>
+        <item>Raisins, seedless miniature Small box</item>
+        <item>Raisins, golden seedless, cup</item>
+        <item>Raisins, golden seedless, cup  packed</item>
+        <item>Raspberries, red, sweetened,cup, unthawed</item>
+        <item>Raspberries, red, sweetened,Package</item>
+        <item>Rhubarb, raw, Stalk</item>
+        <item>Rhubarb.raw, cup, diced</item>
+        <item>Rainier Cherries, 1 Cup</item>
+        <item>Rambutan, 1 Fruit</item>
+        <item>Rambutan, 1 Cup, Drained</item>
+        <item>Rambutan, 1 Cup</item>
+        <item>Roselle, 1 Cup Refuse</item>
+        <item>Rowal, 1 Cup</item>
+        <item>Ugli Fruit, Fruit</item>
+        <item>Craisins, Serving 1/3 cup</item>
+        <item>Currants, zante,Serving, 1/4 cup</item>
+        <item>Currants, zante, cup</item>
+        <item>Wax Jambu (Rose-apple), edible portion,Serving</item>
+        <item>Watermelon / Rock melon, 1 thick slice</item>
+    </string-array>
+    <string-array name="fruit_calories">
+        <item>53</item>
+        <item>77</item>
+        <item>65</item>
+        <item>100</item>
+        <item>63</item>
+        <item>77</item>
+        <item>104</item>
+        <item>68</item>
+        <item>137</item>
+        <item>80</item>
+        <item>7</item>
+        <item>17</item>
+        <item>20</item>
+        <item>74</item>
+        <item>79</item>
+        <item>121</item>
+        <item>313</item>
+        <item>237</item>
+        <item>227</item>
+        <item>255</item>
+        <item>51</item>
+        <item>56</item>
+        <item>32</item>
+        <item>145</item>
+        <item>78</item>
+        <item>136</item>
+        <item>142</item>
+        <item>96</item>
+        <item>72</item>
+        <item>90</item>
+        <item>105</item>
+        <item>121</item>
+        <item>79</item>
+        <item>289</item>
+        <item>50</item>
+        <item>113</item>
+        <item>225</item>
+        <item>227</item>
+        <item>225</item>
+        <item>142</item>
+        <item>93</item>
+        <item>394</item>
+        <item>22</item>
+        <item>28</item>
+        <item>33</item>
+        <item>38</item>
+        <item>41</item>
+        <item>46</item>
+        <item>51</item>
+        <item>40</item>
+        <item>55</item>
+        <item>5</item>
+        <item>5</item>
+        <item>52</item>
+        <item>8</item>
+        <item>50</item>
+        <item>90</item>
+        <item>20</item>
+        <item>50</item>
+        <item>35</item>
+        <item>200</item>
+        <item>70</item>
+        <item>120</item>
+        <item>116</item>
+        <item>83</item>
+        <item>10</item>
+        <item>20</item>
+        <item>415</item>
+        <item>160</item>
+        <item>66</item>
+        <item>357</item>
+        <item>885</item>
+        <item>80</item>
+        <item>228</item>
+        <item>447</item>
+        <item>884</item>
+        <item>119</item>
+        <item>21</item>
+        <item>26</item>
+        <item>30</item>
+        <item>37</item>
+        <item>47</item>
+        <item>120</item>
+        <item>50</item>
+        <item>20</item>
+        <item>34</item>
+        <item>183</item>
+        <item>76</item>
+        <item>6</item>
+        <item>81</item>
+        <item>320</item>
+        <item>155</item>
+        <item>79</item>
+        <item>140</item>
+        <item>40</item>
+        <item>50</item>
+        <item>45</item>
+        <item>25</item>
+        <item>2</item>
+        <item>17</item>
+        <item>24</item>
+        <item>61</item>
+        <item>1</item>
+        <item>3</item>
+        <item>10</item>
+        <item>20</item>
+        <item>10</item>
+        <item>19</item>
+        <item>125</item>
+        <item>20</item>
+        <item>35</item>
+        <item>107</item>
+        <item>107</item>
+        <item>135</item>
+        <item>60</item>
+        <item>70</item>
+        <item>431</item>
+        <item>30</item>
+        <item>76</item>
+        <item>10</item>
+        <item>25</item>
+        <item>45</item>
+        <item>45</item>
+        <item>62</item>
+        <item>86</item>
+        <item>69</item>
+        <item>85</item>
+        <item>2</item>
+        <item>6</item>
+        <item>45</item>
+        <item>77</item>
+        <item>154</item>
+        <item>60</item>
+        <item>22</item>
+        <item>3</item>
+        <item>55</item>
+        <item>80</item>
+        <item>15</item>
+        <item>31</item>
+        <item>38</item>
+        <item>61</item>
+        <item>75</item>
+        <item>43</item>
+        <item>72</item>
+        <item>143</item>
+        <item>28</item>
+        <item>28</item>
+        <item>130</item>
+        <item>1105</item>
+        <item>30</item>
+        <item>35</item>
+        <item>24</item>
+        <item>75</item>
+        <item>20</item>
+        <item>89</item>
+        <item>408</item>
+        <item>121</item>
+        <item>20</item>
+        <item>118</item>
+        <item>43</item>
+        <item>109</item>
+        <item>110</item>
+        <item>146</item>
+        <item>235</item>
+        <item>267</item>
+        <item>4</item>
+        <item>57</item>
+        <item>18</item>
+        <item>34</item>
+        <item>116</item>
+        <item>17</item>
+        <item>228</item>
+        <item>50</item>
+        <item>10</item>
+        <item>25</item>
+        <item>9</item>
+        <item>140</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>9</item>
+        <item>4</item>
+        <item>52</item>
+        <item>77</item>
+        <item>198</item>
+        <item>245</item>
+        <item>273</item>
+        <item>60</item>
+        <item>40</item>
+        <item>25</item>
+        <item>37</item>
+        <item>124</item>
+        <item>41</item>
+        <item>15</item>
+        <item>141</item>
+        <item>200</item>
+        <item>124</item>
+        <item>30</item>
+        <item>174</item>
+        <item>35</item>
+        <item>37</item>
+        <item>45</item>
+        <item>58</item>
+        <item>50</item>
+        <item>384</item>
+        <item>19</item>
+        <item>23</item>
+        <item>35</item>
+        <item>46</item>
+        <item>64</item>
+        <item>61</item>
+        <item>48</item>
+        <item>50</item>
+        <item>124</item>
+        <item>143</item>
+        <item>75</item>
+        <item>42</item>
+        <item>12</item>
+        <item>2</item>
+        <item>12</item>
+        <item>9</item>
+        <item>20</item>
+        <item>19</item>
+        <item>37</item>
+        <item>112</item>
+        <item>34</item>
+        <item>20</item>
+        <item>45</item>
+        <item>46</item>
+        <item>56</item>
+        <item>13</item>
+        <item>7</item>
+        <item>125</item>
+        <item>19</item>
+        <item>15</item>
+        <item>16</item>
+        <item>81</item>
+        <item>2</item>
+        <item>286</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>70</item>
+        <item>6</item>
+        <item>57</item>
+        <item>62</item>
+        <item>69</item>
+        <item>8</item>
+        <item>23</item>
+        <item>33</item>
+        <item>41</item>
+        <item>25</item>
+        <item>35</item>
+        <item>4</item>
+        <item>5</item>
+        <item>59</item>
+        <item>90</item>
+        <item>119</item>
+        <item>148</item>
+        <item>81</item>
+        <item>96</item>
+        <item>121</item>
+        <item>16</item>
+        <item>12</item>
+        <item>36</item>
+        <item>20</item>
+        <item>100</item>
+        <item>35</item>
+        <item>12</item>
+        <item>42</item>
+        <item>61</item>
+        <item>11</item>
+        <item>72</item>
+        <item>231</item>
+        <item>100</item>
+        <item>16</item>
+        <item>68</item>
+        <item>92</item>
+        <item>40</item>
+        <item>47</item>
+        <item>64</item>
+        <item>15</item>
+        <item>5</item>
+        <item>287</item>
+        <item>19</item>
+        <item>23</item>
+        <item>35</item>
+        <item>50</item>
+        <item>35</item>
+        <item>42</item>
+        <item>129</item>
+        <item>438</item>
+        <item>498</item>
+        <item>258</item>
+        <item>293</item>
+        <item>11</item>
+        <item>26</item>
+        <item>90</item>
+        <item>7</item>
+        <item>123</item>
+        <item>175</item>
+        <item>27</item>
+        <item>252</item>
+        <item>40</item>
+        <item>138</item>
+        <item>102</item>
+        <item>408</item>
+        <item>25</item>
+        <item>70</item>
+    </string-array>
+    <string-array name="vf_array">
+        <item>Vegetable</item>
+        <item>Fruit</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>Dishes</item>
+        <item>Veg / Fruit</item>
+    </string-array>
+</resources>

@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blood_alcohol">
+
+    <RelativeLayout
+        android:id="@+id/relHeader"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/header_bg_alcohol">
+
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/icon_backarrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/ten"
+            android:layout_marginTop="@dimen/twenty"
+            android:layout_toRightOf="@+id/imgViewBack"
+            android:text="BLOOD ALCOHOL"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relHeader">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/fifteen">
+
+            <RadioGroup
+                android:id="@+id/radioGrpGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/ten"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp">
+
+                <RadioButton
+                    android:id="@+id/radioBtnMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_selector"
+                    android:checked="true"
+                    android:text="  MALE"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <RadioButton
+                    android:id="@+id/radioBtnFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:button="@drawable/radio_selector"
+                    android:text="  FEMALE"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen"
+                android:text="# OF DRINKS:"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/ten"
+                android:layout_marginStart="@dimen/ten"
+                android:layout_marginTop="@dimen/ten"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_weight="1"
+                    android:text="BEER"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_marginLeft="@dimen/five"
+                    android:layout_weight="1"
+                    android:text="WINE"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/five"
+                    android:layout_weight="1"
+                    android:text="HARD LIQUOR"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+
+                    <Spinner
+                        android:id="@+id/spinBeer"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:scrollbars="none"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+
+                    <Spinner
+                        android:id="@+id/spinWine"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:scrollbars="none"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+
+                    <Spinner
+                        android:id="@+id/spinHardLiquor"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:scrollbars="none"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <!--kjhkjhjkhk-->
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen"
+                android:text="YOUR WEIGHT"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/linWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtWeight"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/edtWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/foutyfive"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true">
+
+                </EditText>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen"
+                android:text="TIME AFTER LAST DRINK:"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/ten" />
+
+            <LinearLayout
+                android:id="@+id/linTimeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTime"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtHours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOURS"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txtMinutes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="MINUTES"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linTimeText"
+                android:layout_marginTop="@dimen/ten"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_toRightOf="@id/edtWeight"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <!--klajdlkasjd-->
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/ten"
+                android:layout_marginTop="@dimen/fifteen"
+                android:text="TIME AFTER LAST DRINK:"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linTimeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtHours"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:text="Hours"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txtMinutes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:text="Minutes"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linTimeText"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end|center"
+                        android:src="@drawable/select_arrow" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end|center"
+                        android:src="@drawable/select_arrow" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>-->
+
+            <!--<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textColor="@android:color/white">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:scrollbars="none"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:scrollbars="none"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+            </LinearLayout>-->
+
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="YOUR WEIGHT:"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/relWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+
+                <EditText
+                    android:id="@+id/editWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/foutyfive"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:imeOptions="actionNext"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true">
+
+                </EditText>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/foutyfive"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="end|center"
+                        android:src="@drawable/select_arrow" />
+
+                </FrameLayout>
+            </LinearLayout>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/fifteen"
+                android:text="You are considered intoxicated if your BAC is more than 0.08. For below 21 years of age the legal limit is 0.02"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/twenty"
+                android:background="@drawable/but_calc"
+                 />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/fifteen"
+                android:background="@android:color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/ten"
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/ten"
+                    android:layout_marginLeft="@dimen/ten"
+                    android:gravity=""
+                    android:textColor="@color/blue"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/relHeader"
+        android:layout_marginLeft="47dp" />
+</RelativeLayout>

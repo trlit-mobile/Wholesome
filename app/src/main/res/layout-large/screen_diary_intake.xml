@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/adLayout_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"></LinearLayout>
+
+    <TableLayout
+        android:id="@+id/table_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearButtons2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+             />
+    </LinearLayout>
+
+    <!--<Button
+        android:id="@+id/btn_delete"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adLayout_main"
+        android:layout_marginTop="10dip"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/adLayout_main"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/btn_delete"
+        android:text="Add" />-->
+
+    <RelativeLayout
+        android:id="@+id/relativeTableHeader"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/linearButtons2"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:layout_marginTop="10dip">
+
+        <TextView
+            android:id="@+id/txt_mark"
+            android:layout_width="60dip"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:text="" />
+
+        <LinearLayout
+            android:id="@+id/linearTableHeaderInside"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:layout_toRightOf="@+id/txt_mark">
+
+            <LinearLayout
+                android:id="@+id/linearTitle1"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1.1"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="30dip"
+                    android:layout_weight="1.1"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="24dp"
+                    android:background="@android:color/black"
+                    />
+                <TextView
+                    android:id="@+id/txt_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:layout_weight="1.1"
+                    android:gravity="center"
+                    android:textSize="24dp"
+                    android:text="Date"
+                    android:textColor="@color/blue_btn_bg_color" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearTitle2"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_weight="1.1"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="30dip"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="24dp"
+                    android:background="@android:color/black"
+                    />
+                <TextView
+                    android:id="@+id/txt_calories"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:gravity="center"
+                    android:text="Calories"
+                    android:textSize="24dp"
+                    android:textColor="@color/blue_btn_bg_color" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linearTitle3"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:layout_weight="0.8"
+                android:gravity="center"
+                >
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="30dip"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="24dp"
+                    android:background="@android:color/black"
+                    />
+                <TextView
+                    android:id="@+id/txt_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dip"
+                    android:gravity="center"
+                    android:textSize="24dp"
+                    android:text="Description"
+                    android:textColor="@color/blue_btn_bg_color" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- <TextView
+        android:id="@+id/txt_calories"
+        android:layout_width="80dip"
+        android:layout_height="45dip"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/table_center"
+        android:gravity="center"
+        android:text="Calories Burned" />
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="80dip"
+        android:layout_height="45dip"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@+id/table_center"
+        android:gravity="center"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/txt_mark"
+        android:layout_width="80dip"
+        android:layout_height="45dip"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="5dip"
+        android:layout_toLeftOf="@+id/txt_date"
+        android:gravity="center"
+        android:text="Mark" />
+
+    <TextView
+        android:id="@+id/txt_desc"
+        android:layout_width="80dip"
+        android:layout_height="45dip"
+        android:layout_below="@+id/btn_add"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/txt_calories"
+        android:gravity="center"
+        android:text="Description" /> -->
+
+    <ListView
+        android:id="@+id/list_intake_diary"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/relativeTableHeader"
+        android:layout_below="@+id/relativeTableHeader"
+        android:layout_marginTop="10dip"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/white" />
+
+</RelativeLayout>

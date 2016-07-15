@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_calories_burn">
+
+    <RelativeLayout
+        android:id="@+id/relHeader"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/header_bg_alcohol">
+
+        <ImageView
+            android:id="@+id/imgViewGetFav"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon_favorite" />
+
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_backarrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fifteen"
+            android:layout_toRightOf="@+id/imgViewBack"
+            android:layout_marginTop="@dimen/twenty"
+            android:text="CALORIES BURNED"
+            android:textColor="@android:color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relHeader">
+
+        <LinearLayout
+            android:id="@+id/linRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relHeader"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/txtWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="YOUR WEIGHT"
+                android:textSize="24dp"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:id="@+id/linWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtWeight"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textSize="24dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <EditText
+                    android:id="@+id/edtWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="5dp"
+                    android:singleLine="true">
+
+                </EditText>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinnerWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="TIME"
+                android:textSize="24dp"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/ten" />
+
+            <LinearLayout
+                android:id="@+id/linTimeText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtTime"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtHours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="HOURS"
+                    android:textSize="24dp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txtMinutes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="MINUTES"
+                    android:textSize="24dp"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linTimeText"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinnerHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_toRightOf="@id/edtWeight"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinnerMinutes"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtTypeActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="TYPE OF ACTIVITY"
+                android:textSize="24dp"
+                android:textColor="@android:color/white" />
+
+            <RelativeLayout
+                android:id="@+id/relActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linTimeText"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageFavorite"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end|center"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_addfavorite" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toLeftOf="@+id/imageFavorite"
+                    tools:ignore="UselessParent">
+
+                    <Spinner
+                        android:id="@+id/spinnerActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_weight="1"
+                        android:textSize="24dp"
+                        android:background="@drawable/select_bg"
+                        android:drawSelectorOnTop="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right|center_vertical"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/icon_dropdwon" />
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relCalc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relActivity"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageShare"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="end|center"
+                    android:layout_marginTop="@dimen/thirty"
+                    android:scaleType="fitXY"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnCalculate"
+                    android:layout_width="400dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/but_calc"
+                    />
+                <!--<Button
+                    android:id="@+id/btnCalculate"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/foutyfive"
+                    android:layout_marginRight="@dimen/ten"
+                    android:layout_marginTop="@dimen/thirty"
+                    android:layout_toLeftOf="@+id/imageShare"
+                    android:background="@color/pink"
+                    android:text="CALCULATE"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp"></Button>-->
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/relResults"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_below="@id/relCalc"
+                android:layout_marginTop="@dimen/fifteen"
+                android:background="@android:color/white"
+                android:paddingLeft="5dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/txtTotalCaloriesBurned"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTotalCaloriesBurnedResult"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_toRightOf="@id/txtTotalBodyFat"
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

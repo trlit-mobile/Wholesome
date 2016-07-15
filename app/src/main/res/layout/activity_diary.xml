@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_diary"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/imgViewBack"
+        android:background="@drawable/header_bg_alcohol"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relHeader"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+
+            <ImageView
+                android:id="@+id/imgViewBack"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/icon_backarrow" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/ten"
+                android:layout_marginTop="@dimen/twenty"
+                android:layout_toRightOf="@+id/imgViewBack"
+                android:text="DIARY"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imgViewPlus"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/plus_icon_" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonBurned"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/tab_active"
+            android:text="Burned"
+            android:textColor="@color/button_text_color" />
+
+        <Button
+            android:id="@+id/buttonIntake"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_deactive"
+            android:text="Intake"
+            android:textColor="@color/button_text_color" />
+    </LinearLayout>
+
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Burned"
+            android:layout_weight="1"
+            android:id="@+id/buttonBurned"
+            android:background="@drawable/tab_active"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/button_text_color" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Intake"
+            android:layout_weight="1"
+            android:background="@drawable/tab_deactive"
+            android:id="@+id/buttonIntake"
+            android:textColor="@color/button_text_color" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/linearCaloriesBurned"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/five"
+        android:visibility="gone">
+
+        <include layout="@layout/screen_diary_burned"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearCaloriesIntake"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/five"
+        android:visibility="visible">
+
+        <include layout="@layout/screen_diary_intake"></include>
+    </LinearLayout>
+
+</LinearLayout>

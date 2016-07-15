@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/imageViewTrash"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/trash" />
+
+        <CheckBox
+            android:id="@+id/check_box"
+            android:layout_marginTop="5dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:visibility="gone"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:id="@+id/linearTableHeaderInside"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/imageViewTrash"
+            android:layout_toRightOf="@+id/imageViewTrash"
+            >
+            <Button
+                android:id="@+id/btn_datepicker"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:layout_weight="1.1"
+                android:textColor="@android:color/black"
+                android:text="11-30-2012"
+                android:textSize="20dp" />
+            <!--
+         android:textAppearance="?android:attr/textAppearanceLarge"
+               android:text="Current Date (M-D-YYYY): "
+            -->
+
+            <EditText
+                android:id="@+id/edit_caloriesBurned"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/btn_datepicker"
+                android:editable="false"
+                android:inputType="numberDecimal"
+                android:singleLine="true"
+                android:layout_weight="1.1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:text="12.55"
+                android:textSize="20dp"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/edit_desc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_toRightOf="@+id/edit_caloriesBurned"
+                android:editable="false"
+                android:singleLine="true"
+                android:layout_weight="0.8"
+                android:text="Description"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                tools:ignore="Deprecated" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_general"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgBloodAlcohol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_blood_alcohal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgBloodAlcohol"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgBloodAlcohol"
+                android:gravity="center"
+                android:text="Blood Alcohol"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgCaloriesBurned"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_calory_burn" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgCaloriesBurned"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgCaloriesBurned"
+                android:gravity="center"
+                android:text="Calories Burned"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgBodyFatYMCA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_body_fat_ymca" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgBodyFatYMCA"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgBodyFatYMCA"
+                android:gravity="center"
+                android:text="Body Fat YMCA"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgBodyFatUsNavy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_body_fat_us_navy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgBodyFatUsNavy"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgBodyFatUsNavy"
+                android:gravity="center"
+                android:text="Body Fat US NAVY"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgLeanedBodyMass"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_lean_body_mass" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgLeanedBodyMass"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgLeanedBodyMass"
+                android:gravity="center"
+                android:text="Lean Body Mass"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgBodyMassIndex"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_bmi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgBodyMassIndex"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgBodyMassIndex"
+                android:gravity="center"
+                android:text="Body Mass Index"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgPragnencyDueDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_pragnancy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgPragnencyDueDate"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgPragnencyDueDate"
+                android:gravity="center"
+                android:text="Pregnancy Due Date"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgOvulationEstimator"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_ovulation" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgOvulationEstimator"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgOvulationEstimator"
+                android:gravity="center"
+                android:text="Ovulation Estimator"
+                android:textSize="30dp"
+                android:textColor="@android:color/white" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgWaistToHipRatio"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_heapratio" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgWaistToHipRatio"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgWaistToHipRatio"
+                android:gravity="center"
+                android:text="Waist to Hip"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                 />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imgSmokingCost"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/icon_smoke" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imgSmokingCost"
+                android:layout_alignParentBottom="true"
+                android:layout_alignRight="@+id/imgSmokingCost"
+                android:gravity="center"
+                android:text="Smoking Cost"
+                android:textSize="30dp"
+                android:textColor="@android:color/white"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
